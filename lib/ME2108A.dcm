@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ME2108A27M3
+D SOT23 fixed-voltage boost converter
+K Boost converter
+F https://datasheet.lcsc.com/szlcsc/Nanjing-Micro-One-Elec-ME2108A33M3G_C236804.pdf
+$ENDCMP
+#
+$CMP ME2108A33M3
+D SOT23 fixed-voltage boost converter
+K Boost converter
+F https://datasheet.lcsc.com/szlcsc/Nanjing-Micro-One-Elec-ME2108A33M3G_C236804.pdf
+$ENDCMP
+#
+$CMP ME2108A50M3
+D SOT23 fixed-voltage boost converter
+K Boost converter
+F https://datasheet.lcsc.com/szlcsc/Nanjing-Micro-One-Elec-ME2108A33M3G_C236804.pdf
+$ENDCMP
+#
+#End Doc Library

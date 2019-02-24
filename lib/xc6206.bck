@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XC6206P12
+D 200mA LDO
+K LDO
+F https://www.torexsemi.com/file/xc6206/XC6206.pdf
+$ENDCMP
+#
+#End Doc Library

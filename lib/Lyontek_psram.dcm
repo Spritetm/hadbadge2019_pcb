@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LY68L6400SLIT
+D 64MBit SPI PSRAM
+K PSRAM
+F https://datasheet.lcsc.com/szlcsc/Lyontek-Inc-LY68L6400SLIT_C261881.pdf
+$ENDCMP
+#
+$CMP LY68S3200SLT
+D 32MBit SPI PSRAM
+K PSRAM
+F https://datasheet.lcsc.com/szlcsc/Lyontek-Inc-LY68S3200SLT_C261882.pdf
+$ENDCMP
+#
+#End Doc Library

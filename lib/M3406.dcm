@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP M3406
+D M3406 buck converter
+$ENDCMP
+#
+#End Doc Library
