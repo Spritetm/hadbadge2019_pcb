@@ -5,4 +5,5 @@
   (lib (name ME2108A)(type Legacy)(uri /home/jeroen/hackaday2019/hw/badge/lib/ME2108A.lib)(options "")(descr ""))
   (lib (name Lyontek_psram)(type Legacy)(uri /home/jeroen/hackaday2019/hw/badge/lib/Lyontek_psram.lib)(options "")(descr ""))
   (lib (name ns8002)(type Legacy)(uri ${KIPRJMOD}/lib/ns8002.lib)(options "")(descr ""))
+  (lib (name spdt_sh)(type Legacy)(uri /home/jeroen/hackaday2019/hw/badge/lib/spdt_sh.lib)(options "")(descr ""))
 )
