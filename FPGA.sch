@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:hadbadge2019-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -520,7 +520,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 8550 6900 8850
 Connection ~ 6900 8850
-Text GLabel 1100 6350 0    50   Input ~ 0
+Text GLabel 9450 6450 0    50   Input ~ 0
 VIO
 Text GLabel 3100 6450 0    50   Input ~ 0
 VIO
@@ -972,71 +972,71 @@ F 3 "~" H 13300 7700 50  0001 C CNN
 	1    13300 7700
 	1    0    0    -1  
 $EndComp
-Text GLabel 3100 3450 0    50   Input ~ 0
-LCD_RS
-Text GLabel 3100 3250 0    50   Input ~ 0
-LCD_RD
-Text GLabel 3100 3150 0    50   Input ~ 0
-LCD_DB17
-Text GLabel 3100 4050 0    50   Input ~ 0
-LCD_DB15
-Text GLabel 3100 3650 0    50   Input ~ 0
-LCD_DB13
-Text GLabel 3100 3850 0    50   Input ~ 0
-LCD_DB11
-Text GLabel 3100 4350 0    50   Input ~ 0
-LCD_DB9
-Text GLabel 3100 4750 0    50   Input ~ 0
-LCD_DB7
-Text GLabel 3100 4850 0    50   Input ~ 0
-LCD_DB5
-Text GLabel 3100 4950 0    50   Input ~ 0
-LCD_DB3
-Text GLabel 3100 5250 0    50   Input ~ 0
-LCD_DB1
-Text GLabel 3100 5150 0    50   Input ~ 0
-LCD_RST
-Text GLabel 3100 6350 0    50   Input ~ 0
-LCD_FMARK
-Text GLabel 3100 4150 0    50   Input ~ 0
-LCD_CS
-Text GLabel 3100 3950 0    50   Input ~ 0
-LCD_WR
-Text GLabel 3100 4250 0    50   Input ~ 0
-LCD_DB16
-Text GLabel 3100 5550 0    50   Input ~ 0
-LCD_DB14
-Text GLabel 3100 5750 0    50   Input ~ 0
-LCD_DB12
-Text GLabel 3100 5450 0    50   Input ~ 0
-LCD_DB10
-Text GLabel 3100 5850 0    50   Input ~ 0
-LCD_DB8
-Text GLabel 3100 5650 0    50   Input ~ 0
-LCD_DB6
-Text GLabel 3100 5950 0    50   Input ~ 0
-LCD_DB4
-Text GLabel 3100 6150 0    50   Input ~ 0
-LCD_DB2
 Text GLabel 3100 6050 0    50   Input ~ 0
-LCD_DB0
+LCD_RS
+Text GLabel 3100 6150 0    50   Input ~ 0
+LCD_RD
+Text GLabel 3100 5950 0    50   Input ~ 0
+LCD_DB17
+Text GLabel 3100 5650 0    50   Input ~ 0
+LCD_DB15
+Text GLabel 3100 5850 0    50   Input ~ 0
+LCD_DB13
+Text GLabel 3100 5750 0    50   Input ~ 0
+LCD_DB11
+Text GLabel 3100 5550 0    50   Input ~ 0
+LCD_DB9
+Text GLabel 3100 4250 0    50   Input ~ 0
+LCD_DB7
+Text GLabel 3100 3950 0    50   Input ~ 0
+LCD_DB5
+Text GLabel 3100 4150 0    50   Input ~ 0
+LCD_DB3
+Text GLabel 3100 4050 0    50   Input ~ 0
+LCD_DB1
+Text GLabel 3100 3250 0    50   Input ~ 0
+LCD_RST
+Text GLabel 3100 3450 0    50   Input ~ 0
+LCD_FMARK
 Text GLabel 3100 6250 0    50   Input ~ 0
+LCD_CS
+Text GLabel 3100 6350 0    50   Input ~ 0
+LCD_WR
+Text GLabel 3100 5250 0    50   Input ~ 0
+LCD_DB16
+Text GLabel 3100 4950 0    50   Input ~ 0
+LCD_DB14
+Text GLabel 3100 5450 0    50   Input ~ 0
+LCD_DB12
+Text GLabel 3100 4850 0    50   Input ~ 0
+LCD_DB10
+Text GLabel 3100 5350 0    50   Input ~ 0
+LCD_DB8
+Text GLabel 3100 4450 0    50   Input ~ 0
+LCD_DB6
+Text GLabel 3100 3850 0    50   Input ~ 0
+LCD_DB4
+Text GLabel 3100 4350 0    50   Input ~ 0
+LCD_DB2
+Text GLabel 3100 3650 0    50   Input ~ 0
+LCD_DB0
+Text GLabel 3100 3550 0    50   Input ~ 0
 LCD_ID
-Text GLabel 7150 3450 0    50   Input ~ 0
-BTN_UP
-Text GLabel 7150 4150 0    50   Input ~ 0
-BTN_DOWN
-Text GLabel 7150 3750 0    50   Input ~ 0
-BTN_LEFT
-Text GLabel 7150 3950 0    50   Input ~ 0
-BTN_RIGHT
 Text GLabel 3100 3350 0    50   Input ~ 0
-GENIO_1
-Text GLabel 5050 5450 0    50   Input ~ 0
-GENIO_3
-Text GLabel 5050 5350 0    50   Input ~ 0
-GENIO_5
+BTN_UP
 Text GLabel 5050 5150 0    50   Input ~ 0
+BTN_DOWN
+Text GLabel 5050 5950 0    50   Input ~ 0
+BTN_LEFT
+Text GLabel 5050 6050 0    50   Input ~ 0
+BTN_RIGHT
+Text GLabel 2400 2850 0    50   Input ~ 0
+GENIO_1
+Text GLabel 5450 6700 0    50   Input ~ 0
+GENIO_3
+Text GLabel 4600 7150 0    50   Input ~ 0
+GENIO_5
+Text GLabel 5100 7000 0    50   Input ~ 0
 GENIO_7
 Text GLabel 5050 4950 0    50   Input ~ 0
 GENIO_9
@@ -1084,41 +1084,33 @@ Text GLabel 5050 4850 0    50   Input ~ 0
 GENIO_10
 Text GLabel 5050 5050 0    50   Input ~ 0
 GENIO_8
-Text GLabel 5050 5250 0    50   Input ~ 0
+Text GLabel 4600 7050 0    50   Input ~ 0
 GENIO_6
-Text GLabel 5050 6250 0    50   Input ~ 0
+Text GLabel 5700 6600 0    50   Input ~ 0
 GENIO_4
-Text GLabel 5050 6050 0    50   Input ~ 0
+Text GLabel 4950 6700 0    50   Input ~ 0
 GENIO_2
-Text GLabel 7150 4250 0    50   Input ~ 0
-HDMI_D2+
-Text GLabel 7150 4050 0    50   Input ~ 0
-HDMI_D2-
-Text GLabel 7150 5150 0    50   Input ~ 0
-HDMI_D1+
-Text GLabel 7150 4950 0    50   Input ~ 0
-HDMI_D1-
 Text GLabel 7150 4650 0    50   Input ~ 0
 HDMI_D0+
 Text GLabel 7150 4450 0    50   Input ~ 0
 HDMI_D0-
-Text GLabel 7150 5550 0    50   Input ~ 0
+Text GLabel 7150 4250 0    50   Input ~ 0
 HDMI_CK+
-Text GLabel 7150 5350 0    50   Input ~ 0
+Text GLabel 7150 4050 0    50   Input ~ 0
 HDMI_CK-
-Text GLabel 7150 6350 0    50   Input ~ 0
+Text GLabel 7150 3850 0    50   Input ~ 0
 HDMI_HEAC+
-Text GLabel 7150 6150 0    50   Input ~ 0
+Text GLabel 7150 3650 0    50   Input ~ 0
 HDMI_HEAC-
-Text GLabel 1100 3350 0    50   Input ~ 0
+Text GLabel 1050 2950 0    50   Input ~ 0
 CLK
-Text GLabel 1100 3450 0    50   Input ~ 0
+Text GLabel 900  2550 0    50   Input ~ 0
 USB_D+
-Text GLabel 1100 3250 0    50   Input ~ 0
+Text GLabel 900  2450 0    50   Input ~ 0
 USB_D-
-Text GLabel 1100 3650 0    50   Input ~ 0
+Text GLabel 1100 2700 0    50   Input ~ 0
 USB_PU
-Text GLabel 1100 3950 0    50   Input ~ 0
+Text GLabel 1050 2350 0    50   Input ~ 0
 USB_VBUSDET
 $Comp
 L Lyontek_psram:LY68L6400SLIT U2
@@ -1126,7 +1118,7 @@ U 1 1 5C736125
 P 10000 1750
 F 0 "U2" H 9800 2100 50  0000 C CNN
 F 1 "LY68L6400SLIT" H 9550 2200 50  0000 C CNN
-F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 9950 1700 50  0001 C CNN
+F 2 "Package_SO:SSOP-8_3.9x5.05mm_P1.27mm" H 9950 1700 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Lyontek-Inc-LY68L6400SLIT_C261881.pdf" H 9950 1700 50  0001 C CNN
 	1    10000 1750
 	1    0    0    -1  
@@ -1137,7 +1129,7 @@ U 1 1 5C736206
 P 12350 1750
 F 0 "U3" H 12100 2100 50  0000 C CNN
 F 1 "LY68L6400SLIT" H 11950 2200 50  0000 C CNN
-F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 12300 1700 50  0001 C CNN
+F 2 "Package_SO:SSOP-8_3.9x5.05mm_P1.27mm" H 12300 1700 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Lyontek-Inc-LY68L6400SLIT_C261881.pdf" H 12300 1700 50  0001 C CNN
 	1    12350 1750
 	1    0    0    -1  
@@ -1177,7 +1169,7 @@ F 3 "~" H 8950 6900 50  0001 C CNN
 $EndComp
 Text GLabel 9300 6900 2    50   Input ~ 0
 VIO_PSRAM
-Text GLabel 9450 6450 0    50   Input ~ 0
+Text GLabel 1100 6350 0    50   Input ~ 0
 VIO_PSRAM
 Text GLabel 10000 1250 1    50   Input ~ 0
 VIO_PSRAM
@@ -1199,14 +1191,10 @@ Text GLabel 11800 1600 0    50   Input ~ 0
 RAM2_CE
 Text GLabel 11800 1800 0    50   Input ~ 0
 RAM2_SCLK
-Text GLabel 9450 3550 0    50   Input ~ 0
+Text GLabel 1100 3350 0    50   Input ~ 0
 RAM2_SIO0
-Text GLabel 9450 3250 0    50   Input ~ 0
+Text GLabel 1100 3850 0    50   Input ~ 0
 RAM2_SIO1
-Text GLabel 9450 3150 0    50   Input ~ 0
-RAM2_SIO2
-Text GLabel 9450 3850 0    50   Input ~ 0
-RAM2_SIO3
 Text GLabel 13700 1250 1    50   Input ~ 0
 VIO_PSRAM
 Text GLabel 8700 1250 1    50   Input ~ 0
@@ -1286,21 +1274,19 @@ Wire Wire Line
 	9150 6900 9300 6900
 Text Notes 9100 6750 0    50   ~ 0
 R6 can be removed to apply different VIO_PSRAM
-Text GLabel 9450 3350 0    50   Input ~ 0
+Text GLabel 1100 4150 0    50   Input ~ 0
 RAM2_CE
-Text GLabel 9450 3450 0    50   Input ~ 0
+Text GLabel 1100 3450 0    50   Input ~ 0
 RAM2_SCLK
-Text GLabel 9450 4250 0    50   Input ~ 0
+Text GLabel 1100 4550 0    50   Input ~ 0
 RAM1_CE
-Text GLabel 9450 4750 0    50   Input ~ 0
+Text GLabel 1100 4250 0    50   Input ~ 0
 RAM1_SCLK
-Text GLabel 9450 4650 0    50   Input ~ 0
+Text GLabel 1100 4350 0    50   Input ~ 0
 RAM1_SIO0
-Text GLabel 9450 4050 0    50   Input ~ 0
-RAM1_SIO1
-Text GLabel 9450 3750 0    50   Input ~ 0
+Text GLabel 1100 4650 0    50   Input ~ 0
 RAM1_SIO2
-Text GLabel 9450 5150 0    50   Input ~ 0
+Text GLabel 1100 4050 0    50   Input ~ 0
 RAM1_SIO3
 Text GLabel 12950 1600 2    50   Input ~ 0
 RAM2_SIO0
@@ -1310,13 +1296,13 @@ Text GLabel 12950 1800 2    50   Input ~ 0
 RAM2_SIO2
 Text GLabel 12950 1900 2    50   Input ~ 0
 RAM2_SIO3
-Text GLabel 11650 4150 0    50   Input ~ 0
+Text GLabel 5050 5350 0    50   Input ~ 0
 BTN_A
-Text GLabel 11650 3150 0    50   Input ~ 0
+Text GLabel 5050 6250 0    50   Input ~ 0
 BTN_B
-Text GLabel 7150 6250 0    50   Input ~ 0
+Text GLabel 5050 5250 0    50   Input ~ 0
 BTN_SELECT
-Text GLabel 1100 4650 0    50   Input ~ 0
+Text GLabel 5050 5450 0    50   Input ~ 0
 BTN_START
 Wire Wire Line
 	2550 1250 2950 1250
@@ -1589,12 +1575,6 @@ Wire Wire Line
 NoConn ~ 1100 3150
 NoConn ~ 1100 3550
 NoConn ~ 1100 3750
-NoConn ~ 1100 3850
-NoConn ~ 1100 4050
-NoConn ~ 1100 4150
-NoConn ~ 1100 4250
-NoConn ~ 1100 4350
-NoConn ~ 1100 4450
 NoConn ~ 1100 4750
 NoConn ~ 1100 4850
 NoConn ~ 1100 4950
@@ -1611,13 +1591,10 @@ NoConn ~ 1100 5950
 NoConn ~ 1100 6050
 NoConn ~ 1100 6150
 NoConn ~ 1100 6250
-NoConn ~ 3100 5350
 NoConn ~ 3100 5050
 NoConn ~ 3100 4650
 NoConn ~ 3100 4550
-NoConn ~ 3100 4450
 NoConn ~ 3100 3750
-NoConn ~ 3100 3550
 NoConn ~ 5050 3950
 NoConn ~ 5050 4150
 NoConn ~ 5050 4350
@@ -1626,7 +1603,6 @@ NoConn ~ 5050 4650
 NoConn ~ 5050 5550
 NoConn ~ 5050 5650
 NoConn ~ 5050 5750
-NoConn ~ 5050 5950
 NoConn ~ 7150 6050
 NoConn ~ 7150 5950
 NoConn ~ 7150 5850
@@ -1639,8 +1615,6 @@ NoConn ~ 7150 4850
 NoConn ~ 7150 4750
 NoConn ~ 7150 4550
 NoConn ~ 7150 4350
-NoConn ~ 7150 3850
-NoConn ~ 7150 3650
 NoConn ~ 7150 3550
 NoConn ~ 7150 3350
 NoConn ~ 7150 3250
@@ -1932,8 +1906,22 @@ F 3 "~" H 10000 7300 50  0001 C CNN
 	1    10000 7300
 	1    0    0    -1  
 $EndComp
-Text GLabel 1100 4550 0    50   Input ~ 0
+Text GLabel 1100 2850 0    50   Input ~ 0
 PWMOUT
 Text GLabel 5050 5850 0    50   Input ~ 0
 LCD_BLEN
+Text GLabel 7150 5950 0    50   Input ~ 0
+HDMI_D2+
+Text GLabel 7150 5750 0    50   Input ~ 0
+HDMI_D2-
+Text GLabel 7150 6150 0    50   Input ~ 0
+HDMI_D1-
+Text GLabel 7150 6350 0    50   Input ~ 0
+HDMI_D1+
+Text GLabel 1100 3950 0    50   Input ~ 0
+RAM2_SIO2
+Text GLabel 1100 3650 0    50   Input ~ 0
+RAM2_SIO3
+Text GLabel 1100 4450 0    50   Input ~ 0
+RAM1_SIO1
 $EndSCHEMATC
