@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XR1151
+D Boostconverter, >1.6V in, up to 6V out
+K boostconverter
+$ENDCMP
+#
+#End Doc Library

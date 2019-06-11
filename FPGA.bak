@@ -104,17 +104,6 @@ F 3 "" H 7250 1550 50  0001 C CNN
 $EndComp
 $Comp
 L ECP5UM45:LFE5UM-45F U1
-U 10 1 5C5E9FBF
-P 2950 1150
-F 0 "U1" H 3100 1550 60  0000 L CNN
-F 1 "LFE5UM-45F" H 3100 1400 60  0000 L CNN
-F 2 "lib:Lattice_caBGA-381_17.0x17.0mm_Layout20x20_P0.8mm_Ball0.4mm_Pad0.4mm_NSMD" H 2950 1150 50  0001 C CNN
-F 3 "" H 2950 1150 50  0001 C CNN
-	10   2950 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L ECP5UM45:LFE5UM-45F U1
 U 11 1 5C5EA060
 P 4400 1150
 F 0 "U1" H 4600 1450 60  0000 L CNN
@@ -174,17 +163,6 @@ Wire Wire Line
 	700  1450 700  1550
 Text GLabel 2550 900  1    50   Input ~ 0
 1V1
-Wire Wire Line
-	2550 900  2550 1250
-Connection ~ 2550 1850
-Wire Wire Line
-	2550 1850 2550 2150
-Connection ~ 2550 1550
-Wire Wire Line
-	2550 1550 2550 1850
-Connection ~ 2550 1250
-Wire Wire Line
-	2550 1250 2550 1550
 Text GLabel 4250 950  1    50   Input ~ 0
 1V1
 Wire Wire Line
@@ -520,15 +498,13 @@ Wire Wire Line
 Wire Wire Line
 	6900 8550 6900 8850
 Connection ~ 6900 8850
-Text GLabel 1100 6350 0    50   Input ~ 0
+Text GLabel 9450 6450 0    50   Input ~ 0
 VIO
 Text GLabel 3100 6450 0    50   Input ~ 0
 VIO
 Text GLabel 5050 6350 0    50   Input ~ 0
 VIO
 Text GLabel 7150 6450 0    50   Input ~ 0
-VIO
-Text GLabel 8800 6900 0    50   Input ~ 0
 VIO
 Text GLabel 11650 5850 0    50   Input ~ 0
 VIO
@@ -913,65 +889,15 @@ F 3 "~" H 11550 9450 50  0001 C CNN
 $EndComp
 Text GLabel 11550 9300 1    50   Input ~ 0
 2V5
-Text GLabel 700  1050 1    50   Input ~ 0
-1V1_SERDES
+Text GLabel 700  900  1    50   Input ~ 0
+1V1
 Wire Wire Line
 	550  1150 1100 1150
 Wire Wire Line
 	1100 1250 850  1250
 Wire Wire Line
 	850  1250 850  900 
-Wire Wire Line
-	700  1450 700  1050
 Connection ~ 700  1450
-Text GLabel 12850 7550 1    50   Input ~ 0
-1V1_SERDES
-$Comp
-L power:GND #PWR016
-U 1 1 5C7FC1F8
-P 12850 7850
-F 0 "#PWR016" H 12850 7600 50  0001 C CNN
-F 1 "GND" H 12855 7677 50  0000 C CNN
-F 2 "" H 12850 7850 50  0001 C CNN
-F 3 "" H 12850 7850 50  0001 C CNN
-	1    12850 7850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C10
-U 1 1 5C7FC1FE
-P 12850 7700
-F 0 "C10" H 12965 7746 50  0000 L CNN
-F 1 "100n" H 12965 7655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 12888 7550 50  0001 C CNN
-F 3 "~" H 12850 7700 50  0001 C CNN
-	1    12850 7700
-	1    0    0    -1  
-$EndComp
-Text GLabel 13300 7550 1    50   Input ~ 0
-1V1_SERDES
-$Comp
-L power:GND #PWR017
-U 1 1 5C7FE2F5
-P 13300 7850
-F 0 "#PWR017" H 13300 7600 50  0001 C CNN
-F 1 "GND" H 13305 7677 50  0000 C CNN
-F 2 "" H 13300 7850 50  0001 C CNN
-F 3 "" H 13300 7850 50  0001 C CNN
-	1    13300 7850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C11
-U 1 1 5C7FE2FB
-P 13300 7700
-F 0 "C11" H 13415 7746 50  0000 L CNN
-F 1 "100n" H 13415 7655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 13338 7550 50  0001 C CNN
-F 3 "~" H 13300 7700 50  0001 C CNN
-	1    13300 7700
-	1    0    0    -1  
-$EndComp
 Text GLabel 3100 6050 0    50   Input ~ 0
 LCD_RS
 Text GLabel 3100 6150 0    50   Input ~ 0
@@ -1102,15 +1028,15 @@ Text GLabel 7150 3850 0    50   Input ~ 0
 HDMI_HEAC+
 Text GLabel 7150 3650 0    50   Input ~ 0
 HDMI_HEAC-
-Text GLabel 1100 3350 0    50   Input ~ 0
+Text GLabel 1050 2950 0    50   Input ~ 0
 CLK
-Text GLabel 1100 3450 0    50   Input ~ 0
+Text GLabel 900  2550 0    50   Input ~ 0
 USB_D+
-Text GLabel 1100 3250 0    50   Input ~ 0
+Text GLabel 900  2450 0    50   Input ~ 0
 USB_D-
-Text GLabel 1100 3650 0    50   Input ~ 0
+Text GLabel 1100 2700 0    50   Input ~ 0
 USB_PU
-Text GLabel 1100 3950 0    50   Input ~ 0
+Text GLabel 1050 2350 0    50   Input ~ 0
 USB_VBUSDET
 $Comp
 L Lyontek_psram:LY68L6400SLIT U2
@@ -1156,25 +1082,12 @@ F 3 "" H 12350 2250 50  0001 C CNN
 	1    12350 2250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R6
-U 1 1 5C736D47
-P 8950 6900
-F 0 "R6" V 9157 6900 50  0000 C CNN
-F 1 "0" V 9066 6900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8880 6900 50  0001 C CNN
-F 3 "~" H 8950 6900 50  0001 C CNN
-	1    8950 6900
-	0    1    -1   0   
-$EndComp
-Text GLabel 9300 6900 2    50   Input ~ 0
-VIO_PSRAM
-Text GLabel 9450 6450 0    50   Input ~ 0
-VIO_PSRAM
+Text GLabel 1100 6350 0    50   Input ~ 0
+VIO
 Text GLabel 10000 1250 1    50   Input ~ 0
-VIO_PSRAM
+VIO
 Text GLabel 12350 1250 1    50   Input ~ 0
-VIO_PSRAM
+VIO
 Text GLabel 9450 1600 0    50   Input ~ 0
 RAM1_CE
 Text GLabel 9450 1800 0    50   Input ~ 0
@@ -1191,18 +1104,14 @@ Text GLabel 11800 1600 0    50   Input ~ 0
 RAM2_CE
 Text GLabel 11800 1800 0    50   Input ~ 0
 RAM2_SCLK
-Text GLabel 9450 3550 0    50   Input ~ 0
+Text GLabel 1100 3350 0    50   Input ~ 0
 RAM2_SIO0
-Text GLabel 9450 3250 0    50   Input ~ 0
+Text GLabel 1100 3850 0    50   Input ~ 0
 RAM2_SIO1
-Text GLabel 9450 3150 0    50   Input ~ 0
-RAM2_SIO2
-Text GLabel 9450 3850 0    50   Input ~ 0
-RAM2_SIO3
 Text GLabel 13700 1250 1    50   Input ~ 0
-VIO_PSRAM
+VIO
 Text GLabel 8700 1250 1    50   Input ~ 0
-VIO_PSRAM
+VIO
 $Comp
 L Device:C C2
 U 1 1 5C7513EB
@@ -1247,52 +1156,19 @@ F 3 "" H 8700 1550 50  0001 C CNN
 	1    8700 1550
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C4
-U 1 1 5C753A9F
-P 9150 7100
-F 0 "C4" H 9265 7146 50  0000 L CNN
-F 1 "100n" H 9265 7055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 9188 6950 50  0001 C CNN
-F 3 "~" H 9150 7100 50  0001 C CNN
-	1    9150 7100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR09
-U 1 1 5C753AA6
-P 9150 7250
-F 0 "#PWR09" H 9150 7000 50  0001 C CNN
-F 1 "GND" H 9155 7077 50  0000 C CNN
-F 2 "" H 9150 7250 50  0001 C CNN
-F 3 "" H 9150 7250 50  0001 C CNN
-	1    9150 7250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9100 6900 9150 6900
-Wire Wire Line
-	9150 6950 9150 6900
-Connection ~ 9150 6900
-Wire Wire Line
-	9150 6900 9300 6900
-Text Notes 9100 6750 0    50   ~ 0
-R6 can be removed to apply different VIO_PSRAM
-Text GLabel 9450 3350 0    50   Input ~ 0
+Text GLabel 1100 4150 0    50   Input ~ 0
 RAM2_CE
-Text GLabel 9450 3450 0    50   Input ~ 0
+Text GLabel 1100 3450 0    50   Input ~ 0
 RAM2_SCLK
-Text GLabel 9450 4250 0    50   Input ~ 0
+Text GLabel 1100 4550 0    50   Input ~ 0
 RAM1_CE
-Text GLabel 9450 4750 0    50   Input ~ 0
+Text GLabel 1100 4250 0    50   Input ~ 0
 RAM1_SCLK
-Text GLabel 9450 4650 0    50   Input ~ 0
+Text GLabel 1100 4350 0    50   Input ~ 0
 RAM1_SIO0
-Text GLabel 9450 4050 0    50   Input ~ 0
-RAM1_SIO1
-Text GLabel 9450 3750 0    50   Input ~ 0
+Text GLabel 1100 4650 0    50   Input ~ 0
 RAM1_SIO2
-Text GLabel 9450 5150 0    50   Input ~ 0
+Text GLabel 1100 4050 0    50   Input ~ 0
 RAM1_SIO3
 Text GLabel 12950 1600 2    50   Input ~ 0
 RAM2_SIO0
@@ -1310,124 +1186,6 @@ Text GLabel 5050 5250 0    50   Input ~ 0
 BTN_SELECT
 Text GLabel 5050 5450 0    50   Input ~ 0
 BTN_START
-Wire Wire Line
-	2550 1250 2950 1250
-Wire Wire Line
-	2550 1550 2950 1550
-Wire Wire Line
-	2550 1850 2950 1850
-Wire Wire Line
-	2550 2150 2950 2150
-$Comp
-L Connector:TestPoint TP1
-U 1 1 5C79D008
-P 2950 1150
-F 0 "TP1" V 2950 1450 50  0000 C CNN
-F 1 "TestPoint" V 2950 1700 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3150 1150 50  0001 C CNN
-F 3 "~" H 3150 1150 50  0001 C CNN
-	1    2950 1150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP2
-U 1 1 5C79D1CF
-P 2950 1350
-F 0 "TP2" V 2950 1650 50  0000 C CNN
-F 1 "TestPoint" V 2950 1900 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3150 1350 50  0001 C CNN
-F 3 "~" H 3150 1350 50  0001 C CNN
-	1    2950 1350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP3
-U 1 1 5C79D807
-P 2950 1450
-F 0 "TP3" V 2950 1750 50  0000 C CNN
-F 1 "TestPoint" V 2950 2000 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3150 1450 50  0001 C CNN
-F 3 "~" H 3150 1450 50  0001 C CNN
-	1    2950 1450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP4
-U 1 1 5C79FC28
-P 2950 1650
-F 0 "TP4" V 2950 1950 50  0000 C CNN
-F 1 "TestPoint" V 2950 2200 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3150 1650 50  0001 C CNN
-F 3 "~" H 3150 1650 50  0001 C CNN
-	1    2950 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP5
-U 1 1 5C7A2043
-P 2950 1750
-F 0 "TP5" V 2950 2050 50  0000 C CNN
-F 1 "TestPoint" V 2950 2300 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3150 1750 50  0001 C CNN
-F 3 "~" H 3150 1750 50  0001 C CNN
-	1    2950 1750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP6
-U 1 1 5C7A446A
-P 2950 1950
-F 0 "TP6" V 2950 2250 50  0000 C CNN
-F 1 "TestPoint" V 2950 2500 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3150 1950 50  0001 C CNN
-F 3 "~" H 3150 1950 50  0001 C CNN
-	1    2950 1950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP7
-U 1 1 5C7A688F
-P 2950 2050
-F 0 "TP7" V 2950 2350 50  0000 C CNN
-F 1 "TestPoint" V 2950 2600 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3150 2050 50  0001 C CNN
-F 3 "~" H 3150 2050 50  0001 C CNN
-	1    2950 2050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP8
-U 1 1 5C7A8CC2
-P 2950 2250
-F 0 "TP8" V 2950 2550 50  0000 C CNN
-F 1 "TestPoint" V 2950 2800 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3150 2250 50  0001 C CNN
-F 3 "~" H 3150 2250 50  0001 C CNN
-	1    2950 2250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP9
-U 1 1 5C7AB0E5
-P 2950 2550
-F 0 "TP9" V 2950 2850 50  0000 C CNN
-F 1 "TestPoint" V 2950 3100 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3150 2550 50  0001 C CNN
-F 3 "~" H 3150 2550 50  0001 C CNN
-	1    2950 2550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP10
-U 1 1 5C7AD50A
-P 2950 2650
-F 0 "TP10" V 2950 2950 50  0000 C CNN
-F 1 "TestPoint" V 2950 3200 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3150 2650 50  0001 C CNN
-F 3 "~" H 3150 2650 50  0001 C CNN
-	1    2950 2650
-	0    -1   -1   0   
-$EndComp
 Text GLabel 11600 6450 0    50   Input ~ 0
 PWMOUT
 $Comp
@@ -1581,12 +1339,6 @@ Wire Wire Line
 NoConn ~ 1100 3150
 NoConn ~ 1100 3550
 NoConn ~ 1100 3750
-NoConn ~ 1100 3850
-NoConn ~ 1100 4050
-NoConn ~ 1100 4150
-NoConn ~ 1100 4250
-NoConn ~ 1100 4350
-NoConn ~ 1100 4450
 NoConn ~ 1100 4750
 NoConn ~ 1100 4850
 NoConn ~ 1100 4950
@@ -1905,22 +1657,9 @@ F 3 "" H 15750 5950 50  0001 C CNN
 $EndComp
 Text GLabel 15750 5350 1    50   Input ~ 0
 LED6
-Text GLabel 10000 7300 3    50   Input ~ 0
-VIO_PSRAM
-$Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 5C9E1CB8
-P 10000 7300
-F 0 "#FLG0101" H 10000 7375 50  0001 C CNN
-F 1 "PWR_FLAG" H 10000 7474 50  0000 C CNN
-F 2 "" H 10000 7300 50  0001 C CNN
-F 3 "~" H 10000 7300 50  0001 C CNN
-	1    10000 7300
-	1    0    0    -1  
-$EndComp
-Text GLabel 1100 4550 0    50   Input ~ 0
+Text GLabel 1100 2850 0    50   Input ~ 0
 PWMOUT
-Text GLabel 5050 5850 0    50   Input ~ 0
+Text GLabel 3100 5150 0    50   Input ~ 0
 LCD_BLEN
 Text GLabel 7150 5950 0    50   Input ~ 0
 HDMI_D2+
@@ -1930,4 +1669,63 @@ Text GLabel 7150 6150 0    50   Input ~ 0
 HDMI_D1-
 Text GLabel 7150 6350 0    50   Input ~ 0
 HDMI_D1+
+Text GLabel 1100 3950 0    50   Input ~ 0
+RAM2_SIO2
+Text GLabel 1100 3650 0    50   Input ~ 0
+RAM2_SIO3
+Text GLabel 1100 4450 0    50   Input ~ 0
+RAM1_SIO1
+Wire Wire Line
+	700  900  700  1450
+Wire Wire Line
+	2550 900  2550 1250
+Wire Wire Line
+	2950 1250 2550 1250
+Connection ~ 2550 1250
+Wire Wire Line
+	2550 1250 2550 1550
+Wire Wire Line
+	2950 1550 2550 1550
+Connection ~ 2550 1550
+Wire Wire Line
+	2550 1550 2550 1850
+Wire Wire Line
+	2950 1850 2550 1850
+Connection ~ 2550 1850
+Wire Wire Line
+	2550 1850 2550 2150
+Wire Wire Line
+	2950 2150 2550 2150
+$Comp
+L ECP5UM45:LFE5UM-45F U1
+U 10 1 5C5E9FBF
+P 2950 1150
+F 0 "U1" H 3100 1550 60  0000 L CNN
+F 1 "LFE5UM-45F" H 3100 1400 60  0000 L CNN
+F 2 "lib:Lattice_caBGA-381_17.0x17.0mm_Layout20x20_P0.8mm_Ball0.4mm_Pad0.4mm_NSMD" H 2950 1150 50  0001 C CNN
+F 3 "" H 2950 1150 50  0001 C CNN
+	10   2950 1150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2950 1150
+NoConn ~ 2950 1350
+NoConn ~ 2950 1450
+NoConn ~ 2950 1650
+NoConn ~ 2950 1750
+NoConn ~ 2950 1950
+NoConn ~ 2950 2050
+NoConn ~ 2950 2650
+NoConn ~ 2950 2550
+NoConn ~ 2950 2250
+$Comp
+L jeroens_components:ESP-WROVER32 U8
+U 1 1 5D2CFCDF
+P 1450 8200
+F 0 "U8" H 1475 9531 50  0000 C CNN
+F 1 "ESP-WROVER32" H 1475 9440 50  0000 C CNN
+F 2 "RF_Module:ESP32-WROOM-32" H 1400 10200 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wrover-b_datasheet_en.pdf" H 1400 10200 50  0001 C CNN
+	1    1450 8200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

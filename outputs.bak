@@ -1109,7 +1109,7 @@ U 1 1 5C7DBA62
 P 6050 4550
 F 0 "J6" H 6100 5467 50  0000 C CNN
 F 1 "Conn_02x16_Odd_Even" H 6100 5376 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x16_P2.54mm_Vertical" H 6050 4550 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x16_P2.54mm_Horizontal" H 6050 4550 50  0001 C CNN
 F 3 "~" H 6050 4550 50  0001 C CNN
 	1    6050 4550
 	1    0    0    -1  
