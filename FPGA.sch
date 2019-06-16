@@ -19,7 +19,7 @@ L ECP5UM45:LFE5UM-45F U1
 U 1 1 5C5E9A46
 P 11650 3150
 F 0 "U1" H 12881 1853 60  0000 L CNN
-F 1 "LFE5UM-45F" H 12881 1747 60  0000 L CNN
+F 1 "LFE5Ux-45F" H 12881 1747 60  0000 L CNN
 F 2 "lib:Lattice_caBGA-381_17.0x17.0mm_Layout20x20_P0.8mm_Ball0.4mm_Pad0.4mm_NSMD" H 11650 3150 50  0001 C CNN
 F 3 "" H 11650 3150 50  0001 C CNN
 	1    11650 3150
@@ -27,21 +27,10 @@ F 3 "" H 11650 3150 50  0001 C CNN
 $EndComp
 $Comp
 L ECP5UM45:LFE5UM-45F U1
-U 2 1 5C5E9ABA
-P 9450 3150
-F 0 "U1" H 10781 1553 60  0000 L CNN
-F 1 "LFE5UM-45F" H 10781 1447 60  0000 L CNN
-F 2 "lib:Lattice_caBGA-381_17.0x17.0mm_Layout20x20_P0.8mm_Ball0.4mm_Pad0.4mm_NSMD" H 9450 3150 50  0001 C CNN
-F 3 "" H 9450 3150 50  0001 C CNN
-	2    9450 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L ECP5UM45:LFE5UM-45F U1
 U 3 1 5C5E9B3D
 P 1100 3150
 F 0 "U1" H 2431 1603 60  0000 L CNN
-F 1 "LFE5UM-45F" H 2431 1497 60  0000 L CNN
+F 1 "LFE5Ux-45F" H 2431 1497 60  0000 L CNN
 F 2 "lib:Lattice_caBGA-381_17.0x17.0mm_Layout20x20_P0.8mm_Ball0.4mm_Pad0.4mm_NSMD" H 1100 3150 50  0001 C CNN
 F 3 "" H 1100 3150 50  0001 C CNN
 	3    1100 3150
@@ -52,7 +41,7 @@ L ECP5UM45:LFE5UM-45F U1
 U 4 1 5C5E9BB7
 P 7150 3150
 F 0 "U1" H 8481 1553 60  0000 L CNN
-F 1 "LFE5UM-45F" H 8481 1447 60  0000 L CNN
+F 1 "LFE5Ux-45F" H 8481 1447 60  0000 L CNN
 F 2 "lib:Lattice_caBGA-381_17.0x17.0mm_Layout20x20_P0.8mm_Ball0.4mm_Pad0.4mm_NSMD" H 7150 3150 50  0001 C CNN
 F 3 "" H 7150 3150 50  0001 C CNN
 	4    7150 3150
@@ -63,7 +52,7 @@ L ECP5UM45:LFE5UM-45F U1
 U 5 1 5C5E9C38
 P 3100 3150
 F 0 "U1" H 4431 1553 60  0000 L CNN
-F 1 "LFE5UM-45F" H 4431 1447 60  0000 L CNN
+F 1 "LFE5Ux-45F" H 4431 1447 60  0000 L CNN
 F 2 "lib:Lattice_caBGA-381_17.0x17.0mm_Layout20x20_P0.8mm_Ball0.4mm_Pad0.4mm_NSMD" H 3100 3150 50  0001 C CNN
 F 3 "" H 3100 3150 50  0001 C CNN
 	5    3100 3150
@@ -74,7 +63,7 @@ L ECP5UM45:LFE5UM-45F U1
 U 6 1 5C5E9D33
 P 5050 3150
 F 0 "U1" H 6381 1603 60  0000 L CNN
-F 1 "LFE5UM-45F" H 6381 1497 60  0000 L CNN
+F 1 "LFE5Ux-45F" H 6381 1497 60  0000 L CNN
 F 2 "lib:Lattice_caBGA-381_17.0x17.0mm_Layout20x20_P0.8mm_Ball0.4mm_Pad0.4mm_NSMD" H 5050 3150 50  0001 C CNN
 F 3 "" H 5050 3150 50  0001 C CNN
 	6    5050 3150
@@ -85,9 +74,10 @@ L ECP5UM45:LFE5UM-45F U1
 U 7 1 5C5E9DBC
 P 7500 8050
 F 0 "U1" H 9331 7103 60  0000 L CNN
-F 1 "LFE5UM-45F" H 9331 6997 60  0000 L CNN
+F 1 "LFE5Ux-45F" H 9331 6997 60  0000 L CNN
 F 2 "lib:Lattice_caBGA-381_17.0x17.0mm_Layout20x20_P0.8mm_Ball0.4mm_Pad0.4mm_NSMD" H 7500 8050 50  0001 C CNN
 F 3 "" H 7500 8050 50  0001 C CNN
+F 4 "Lattice LFE5U-45F-8BG381C or LFE5UM-45F-8BG381C" H 8350 8250 50  0000 C CNN "Notes"
 	7    7500 8050
 	1    0    0    -1  
 $EndComp
@@ -96,7 +86,7 @@ L ECP5UM45:LFE5UM-45F U1
 U 8 1 5C5E9E42
 P 7250 1550
 F 0 "U1" H 7781 1453 60  0000 L CNN
-F 1 "LFE5UM-45F" H 7781 1347 60  0000 L CNN
+F 1 "LFE5Ux-45F" H 7781 1347 60  0000 L CNN
 F 2 "lib:Lattice_caBGA-381_17.0x17.0mm_Layout20x20_P0.8mm_Ball0.4mm_Pad0.4mm_NSMD" H 7250 1550 50  0001 C CNN
 F 3 "" H 7250 1550 50  0001 C CNN
 	8    7250 1550
@@ -107,7 +97,7 @@ L ECP5UM45:LFE5UM-45F U1
 U 11 1 5C5EA060
 P 4400 1150
 F 0 "U1" H 4600 1450 60  0000 L CNN
-F 1 "LFE5UM-45F" H 4600 1350 60  0000 L CNN
+F 1 "LFE5Ux-45F" H 4600 1350 60  0000 L CNN
 F 2 "lib:Lattice_caBGA-381_17.0x17.0mm_Layout20x20_P0.8mm_Ball0.4mm_Pad0.4mm_NSMD" H 4400 1150 50  0001 C CNN
 F 3 "" H 4400 1150 50  0001 C CNN
 	11   4400 1150
@@ -131,7 +121,7 @@ L ECP5UM45:LFE5UM-45F U1
 U 9 1 5C5EC12A
 P 1100 1150
 F 0 "U1" H 1300 1450 60  0000 L CNN
-F 1 "LFE5UM-45F" H 1300 1350 60  0000 L CNN
+F 1 "LFE5Ux-45F" H 1300 1350 60  0000 L CNN
 F 2 "lib:Lattice_caBGA-381_17.0x17.0mm_Layout20x20_P0.8mm_Ball0.4mm_Pad0.4mm_NSMD" H 1100 1150 50  0001 C CNN
 F 3 "" H 1100 1150 50  0001 C CNN
 	9    1100 1150
@@ -292,7 +282,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 9550 5850 9150
 Wire Wire Line
-	5850 9550 7500 9550
+	5850 9550 6450 9550
 Wire Wire Line
 	6100 9150 6100 9450
 Wire Wire Line
@@ -344,17 +334,6 @@ Wire Wire Line
 Connection ~ 6100 8850
 Wire Wire Line
 	5350 8800 5350 8850
-$Comp
-L Memory_EEPROM:25LCxxx U4
-U 1 1 5C60DD62
-P 3600 9050
-F 0 "U4" H 3250 9450 50  0000 C CNN
-F 1 "25LCxxx" H 3350 9350 50  0000 C CNN
-F 2 "Package_SO:SSOP-8_5.25x5.24mm_P1.27mm" H 3600 9050 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21832H.pdf" H 3600 9050 50  0001 C CNN
-	1    3600 9050
-	1    0    0    -1  
-$EndComp
 Text Notes 3400 8000 0    50   ~ 0
 Rec: 32MBit for '45F FPGA\n(bitstream is 10MBit with max blockram)
 Wire Wire Line
@@ -378,42 +357,8 @@ F 3 "~" H 6550 9650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6350 9650 7500 9650
-Text Label 7050 8550 0    50   ~ 0
-FLASH_MISO
-Text Label 7050 8750 0    50   ~ 0
-FLASH_MOSI
-Text Label 6700 9200 0    50   ~ 0
-FLASH_SCK
-Text Label 7050 8450 0    50   ~ 0
-FLASH_HOLD
-Text Label 7050 8650 0    50   ~ 0
-FLASH_WP
-Text Label 4100 9150 0    50   ~ 0
-FLASH_MISO
-Text Label 4100 9050 0    50   ~ 0
-FLASH_MOSI
-Text Label 4100 8950 0    50   ~ 0
-FLASH_SCK
-Text Label 2650 9050 0    50   ~ 0
-FLASH_HOLD
-Text Label 2650 8950 0    50   ~ 0
-FLASH_WP
 Text Label 6500 8550 0    50   ~ 0
 FLASH_CS
-Text Label 2650 9150 0    50   ~ 0
-FLASH_CS
-Wire Wire Line
-	2650 8950 3200 8950
-Wire Wire Line
-	3200 9050 2650 9050
-Wire Wire Line
-	2650 9150 3200 9150
-Wire Wire Line
-	4000 8950 4100 8950
-Wire Wire Line
-	4000 9050 4100 9050
-Wire Wire Line
-	4000 9150 4100 9150
 Text GLabel 3600 8350 1    50   Input ~ 0
 VIO
 $Comp
@@ -458,10 +403,6 @@ F 3 "" H 3600 9350 50  0001 C CNN
 	1    3600 9350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7050 8450 7500 8450
-Wire Wire Line
-	7050 8550 7500 8550
 $Comp
 L Device:R R7
 U 1 1 5C62525A
@@ -483,13 +424,7 @@ Wire Wire Line
 	6500 8850 6350 8850
 Connection ~ 6350 8850
 Wire Wire Line
-	7050 8750 7500 8750
-Wire Wire Line
-	7050 8650 7500 8650
-Wire Wire Line
 	7200 9450 7200 9200
-Wire Wire Line
-	7200 9200 6700 9200
 Connection ~ 7200 9450
 Wire Wire Line
 	7200 9450 7500 9450
@@ -551,7 +486,8 @@ P 6100 7300
 F 0 "X1" H 6400 7550 50  0000 L CNN
 F 1 "X1G004481001400" H 6400 7450 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_7050-4Pin_7.0x5.0mm" H 6800 6950 50  0001 C CNN
-F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/XO91.pdf" H 6000 7300 50  0001 C CNN
+F 3 "" H 6000 7300 50  0001 C CNN
+F 4 "Seiko-Epson" H 6100 7300 50  0001 C CNN "Notes"
 	1    6100 7300
 	1    0    0    -1  
 $EndComp
@@ -952,69 +888,69 @@ Text GLabel 3100 3350 0    50   Input ~ 0
 BTN_UP
 Text GLabel 5050 5150 0    50   Input ~ 0
 BTN_DOWN
-Text GLabel 5050 5950 0    50   Input ~ 0
+Text GLabel 3100 3150 0    50   Input ~ 0
 BTN_LEFT
 Text GLabel 5050 6050 0    50   Input ~ 0
 BTN_RIGHT
-Text GLabel 2400 2850 0    50   Input ~ 0
+Text GLabel 5050 3450 0    50   Input ~ 0
 GENIO_1
-Text GLabel 5450 6700 0    50   Input ~ 0
-GENIO_3
-Text GLabel 4600 7150 0    50   Input ~ 0
-GENIO_5
-Text GLabel 5100 7000 0    50   Input ~ 0
-GENIO_7
-Text GLabel 5050 4950 0    50   Input ~ 0
-GENIO_9
-Text GLabel 5050 4050 0    50   Input ~ 0
-GENIO_11
-Text GLabel 5050 3850 0    50   Input ~ 0
-GENIO_13
-Text GLabel 5050 3750 0    50   Input ~ 0
-GENIO_15
-Text GLabel 5050 3350 0    50   Input ~ 0
-GENIO_17
-Text GLabel 11650 5550 0    50   Input ~ 0
-GENIO_19
-Text GLabel 11650 5050 0    50   Input ~ 0
-GENIO_21
-Text GLabel 11650 4650 0    50   Input ~ 0
-GENIO_23
-Text GLabel 11650 3850 0    50   Input ~ 0
-GENIO_25
-Text GLabel 11650 3550 0    50   Input ~ 0
-GENIO_27
-Text GLabel 11650 3350 0    50   Input ~ 0
-GENIO_29
-Text GLabel 11650 3250 0    50   Input ~ 0
-GENIO_30
-Text GLabel 11650 3450 0    50   Input ~ 0
-GENIO_28
-Text GLabel 11650 3750 0    50   Input ~ 0
-GENIO_26
-Text GLabel 11650 4350 0    50   Input ~ 0
-GENIO_24
-Text GLabel 11650 4550 0    50   Input ~ 0
-GENIO_22
-Text GLabel 11650 5750 0    50   Input ~ 0
-GENIO_20
 Text GLabel 5050 3250 0    50   Input ~ 0
+GENIO_3
+Text GLabel 11650 5550 0    50   Input ~ 0
+GENIO_5
+Text GLabel 11650 5450 0    50   Input ~ 0
+GENIO_7
+Text GLabel 11650 4550 0    50   Input ~ 0
+GENIO_9
+Text GLabel 11650 4650 0    50   Input ~ 0
+GENIO_11
+Text GLabel 11650 4450 0    50   Input ~ 0
+GENIO_13
+Text GLabel 11650 3850 0    50   Input ~ 0
+GENIO_15
+Text GLabel 11650 4050 0    50   Input ~ 0
+GENIO_17
+Text GLabel 11650 3550 0    50   Input ~ 0
+GENIO_19
+Text GLabel 9450 6350 0    50   Input ~ 0
+GENIO_21
+Text GLabel 11650 3350 0    50   Input ~ 0
+GENIO_23
+Text GLabel 9450 5450 0    50   Input ~ 0
+GENIO_25
+Text GLabel 9450 5550 0    50   Input ~ 0
+GENIO_27
+Text GLabel 9450 5050 0    50   Input ~ 0
+GENIO_29
+Text GLabel 9450 4950 0    50   Input ~ 0
+GENIO_30
+Text GLabel 9450 5650 0    50   Input ~ 0
+GENIO_28
+Text GLabel 9450 5350 0    50   Input ~ 0
+GENIO_26
+Text GLabel 11650 3250 0    50   Input ~ 0
+GENIO_24
+Text GLabel 11650 3150 0    50   Input ~ 0
+GENIO_22
+Text GLabel 11650 3450 0    50   Input ~ 0
+GENIO_20
+Text GLabel 11650 3650 0    50   Input ~ 0
 GENIO_18
-Text GLabel 5050 3150 0    50   Input ~ 0
+Text GLabel 11650 3750 0    50   Input ~ 0
 GENIO_16
-Text GLabel 5050 3650 0    50   Input ~ 0
+Text GLabel 11650 4150 0    50   Input ~ 0
 GENIO_14
-Text GLabel 5050 4750 0    50   Input ~ 0
+Text GLabel 11650 4350 0    50   Input ~ 0
 GENIO_12
-Text GLabel 5050 4850 0    50   Input ~ 0
+Text GLabel 11650 4850 0    50   Input ~ 0
 GENIO_10
-Text GLabel 5050 5050 0    50   Input ~ 0
+Text GLabel 11650 5050 0    50   Input ~ 0
 GENIO_8
-Text GLabel 4600 7050 0    50   Input ~ 0
+Text GLabel 11650 5750 0    50   Input ~ 0
 GENIO_6
-Text GLabel 5700 6600 0    50   Input ~ 0
+Text GLabel 11650 5250 0    50   Input ~ 0
 GENIO_4
-Text GLabel 4950 6700 0    50   Input ~ 0
+Text GLabel 5050 3350 0    50   Input ~ 0
 GENIO_2
 Text GLabel 7150 4650 0    50   Input ~ 0
 HDMI_D0+
@@ -1030,13 +966,13 @@ Text GLabel 7150 3650 0    50   Input ~ 0
 HDMI_HEAC-
 Text GLabel 1050 2950 0    50   Input ~ 0
 CLK
-Text GLabel 900  2550 0    50   Input ~ 0
+Text GLabel 5050 6150 0    50   Input ~ 0
 USB_D+
-Text GLabel 900  2450 0    50   Input ~ 0
+Text GLabel 5050 5950 0    50   Input ~ 0
 USB_D-
-Text GLabel 1100 2700 0    50   Input ~ 0
+Text GLabel 5050 3950 0    50   Input ~ 0
 USB_PU
-Text GLabel 1050 2350 0    50   Input ~ 0
+Text GLabel 5050 4350 0    50   Input ~ 0
 USB_VBUSDET
 $Comp
 L Lyontek_psram:LY68L6400SLIT U2
@@ -1046,6 +982,7 @@ F 0 "U2" H 9800 2100 50  0000 C CNN
 F 1 "LY68L6400SLIT" H 9550 2200 50  0000 C CNN
 F 2 "Package_SO:SSOP-8_3.9x5.05mm_P1.27mm" H 9950 1700 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Lyontek-Inc-LY68L6400SLIT_C261881.pdf" H 9950 1700 50  0001 C CNN
+F 4 "Lyontek" H 10000 1750 50  0001 C CNN "Notes"
 	1    10000 1750
 	1    0    0    -1  
 $EndComp
@@ -1057,6 +994,7 @@ F 0 "U3" H 12100 2100 50  0000 C CNN
 F 1 "LY68L6400SLIT" H 11950 2200 50  0000 C CNN
 F 2 "Package_SO:SSOP-8_3.9x5.05mm_P1.27mm" H 12300 1700 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Lyontek-Inc-LY68L6400SLIT_C261881.pdf" H 12300 1700 50  0001 C CNN
+F 4 "Lyontek" H 12350 1750 50  0001 C CNN "Notes"
 	1    12350 1750
 	1    0    0    -1  
 $EndComp
@@ -1359,9 +1297,7 @@ NoConn ~ 3100 5050
 NoConn ~ 3100 4650
 NoConn ~ 3100 4550
 NoConn ~ 3100 3750
-NoConn ~ 5050 3950
 NoConn ~ 5050 4150
-NoConn ~ 5050 4350
 NoConn ~ 5050 4450
 NoConn ~ 5050 4650
 NoConn ~ 5050 5550
@@ -1383,40 +1319,24 @@ NoConn ~ 7150 3550
 NoConn ~ 7150 3350
 NoConn ~ 7150 3250
 NoConn ~ 7150 3150
-NoConn ~ 9450 3650
-NoConn ~ 9450 3950
 NoConn ~ 9450 4150
 NoConn ~ 9450 4350
 NoConn ~ 9450 4450
-NoConn ~ 9450 4550
 NoConn ~ 9450 4850
-NoConn ~ 9450 4950
-NoConn ~ 9450 5050
 NoConn ~ 9450 5250
-NoConn ~ 9450 5350
-NoConn ~ 9450 5450
-NoConn ~ 9450 5550
-NoConn ~ 9450 5650
 NoConn ~ 9450 5750
 NoConn ~ 9450 5850
 NoConn ~ 9450 5950
 NoConn ~ 9450 6050
 NoConn ~ 9450 6150
 NoConn ~ 9450 6250
-NoConn ~ 9450 6350
 NoConn ~ 11650 5650
-NoConn ~ 11650 5450
 NoConn ~ 11650 5350
 NoConn ~ 11650 5150
 NoConn ~ 11650 4950
-NoConn ~ 11650 4850
 NoConn ~ 11650 4750
-NoConn ~ 11650 4450
 NoConn ~ 11650 4250
-NoConn ~ 11650 4050
 NoConn ~ 11650 3950
-NoConn ~ 11650 3650
-NoConn ~ 7500 8050
 NoConn ~ 7500 8150
 NoConn ~ 7500 8250
 NoConn ~ 7500 8350
@@ -1575,17 +1495,17 @@ Text GLabel 14800 5350 1    50   Input ~ 0
 LED3
 Text GLabel 15150 5350 1    50   Input ~ 0
 LED4
-Text GLabel 5050 6150 0    50   Input ~ 0
-LED1
 Text GLabel 5050 4550 0    50   Input ~ 0
-LED2
+LED1
 Text GLabel 5050 4250 0    50   Input ~ 0
+LED2
+Text GLabel 5050 4050 0    50   Input ~ 0
 LED3
 Text GLabel 5050 3550 0    50   Input ~ 0
 LED4
-Text GLabel 5050 3450 0    50   Input ~ 0
+Text GLabel 5050 5050 0    50   Input ~ 0
 LED5
-Text GLabel 11650 5250 0    50   Input ~ 0
+Text GLabel 5050 4950 0    50   Input ~ 0
 LED6
 $Comp
 L Device:LED D9
@@ -1701,7 +1621,7 @@ L ECP5UM45:LFE5UM-45F U1
 U 10 1 5C5E9FBF
 P 2950 1150
 F 0 "U1" H 3100 1550 60  0000 L CNN
-F 1 "LFE5UM-45F" H 3100 1400 60  0000 L CNN
+F 1 "LFE5Ux-45F" H 3100 1400 60  0000 L CNN
 F 2 "lib:Lattice_caBGA-381_17.0x17.0mm_Layout20x20_P0.8mm_Ball0.4mm_Pad0.4mm_NSMD" H 2950 1150 50  0001 C CNN
 F 3 "" H 2950 1150 50  0001 C CNN
 	10   2950 1150
@@ -1717,15 +1637,118 @@ NoConn ~ 2950 2050
 NoConn ~ 2950 2650
 NoConn ~ 2950 2550
 NoConn ~ 2950 2250
+Text GLabel 7500 8450 0    50   Input ~ 0
+FLASH_HOLD
+Text GLabel 7500 8550 0    50   Input ~ 0
+FLASH_MISO
+Text GLabel 7500 8650 0    50   Input ~ 0
+FLASH_WP
+Text GLabel 7500 8750 0    50   Input ~ 0
+FLASH_MOSI
+Text GLabel 7100 9200 0    50   Input ~ 0
+FLASH_SCK
+Wire Wire Line
+	7100 9200 7200 9200
+Text GLabel 3200 8950 0    50   Input ~ 0
+FLASH_WP
+Text GLabel 3200 9050 0    50   Input ~ 0
+FLASH_HOLD
+Text GLabel 4000 8950 2    50   Input ~ 0
+FLASH_SCK
+Text GLabel 4000 9050 2    50   Input ~ 0
+FLASH_MOSI
+Text GLabel 4000 9150 2    50   Input ~ 0
+FLASH_MISO
 $Comp
-L jeroens_components:ESP-WROVER32 U8
-U 1 1 5D2CFCDF
-P 1450 8200
-F 0 "U8" H 1475 9531 50  0000 C CNN
-F 1 "ESP-WROVER32" H 1475 9440 50  0000 C CNN
-F 2 "RF_Module:ESP32-WROOM-32" H 1400 10200 50  0001 C CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wrover-b_datasheet_en.pdf" H 1400 10200 50  0001 C CNN
-	1    1450 8200
+L Memory_EEPROM:25LCxxx U4
+U 1 1 5C60DD62
+P 3600 9050
+F 0 "U4" H 3250 9450 50  0000 C CNN
+F 1 "W25Q128JVSIQ" H 3250 9350 50  0000 C CNN
+F 2 "Package_SO:SSOP-8_5.25x5.24mm_P1.27mm" H 3600 9050 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21832H.pdf" H 3600 9050 50  0001 C CNN
+	1    3600 9050
 	1    0    0    -1  
 $EndComp
+Text Label 2750 9400 0    50   ~ 0
+FLASH_CS_INT
+Wire Wire Line
+	2950 9400 2750 9400
+Wire Wire Line
+	2750 9400 2750 9150
+Wire Wire Line
+	2750 9150 3200 9150
+Text GLabel 5050 3850 0    50   Input ~ 0
+SAO1_SCL
+Text GLabel 5050 3650 0    50   Input ~ 0
+SAO1_GPIO2
+Text GLabel 5050 4850 0    50   Input ~ 0
+SAO1_SDA
+Text GLabel 5050 4750 0    50   Input ~ 0
+SAO1_GPIO1
+Text GLabel 5050 3750 0    50   Input ~ 0
+SAO1_GPIO3
+Text GLabel 5050 3150 0    50   Input ~ 0
+SAO1_DRM
+Text GLabel 9450 4250 0    50   Input ~ 0
+PMODA_1
+Text GLabel 9450 4150 0    50   Input ~ 0
+PMODA_2
+Text GLabel 9450 4750 0    50   Input ~ 0
+PMODA_3
+Text GLabel 9450 4550 0    50   Input ~ 0
+PMODA_4
+Text GLabel 9450 4050 0    50   Input ~ 0
+PMODB_1
+Text GLabel 9450 3950 0    50   Input ~ 0
+PMODB_2
+Text GLabel 9450 4650 0    50   Input ~ 0
+PMODB_3
+Text GLabel 9450 5150 0    50   Input ~ 0
+PMODB_4
+Text GLabel 9450 3750 0    50   Input ~ 0
+SAO2_SCL
+Text GLabel 9450 3450 0    50   Input ~ 0
+SAO2_GPIO2
+Text GLabel 9450 3850 0    50   Input ~ 0
+SAO2_GPIO3
+Text GLabel 9450 3650 0    50   Input ~ 0
+SAO2_DRM
+Text GLabel 9450 3550 0    50   Input ~ 0
+SAO2_SDA
+Text GLabel 9450 3250 0    50   Input ~ 0
+SAO2_GPIO1
+$Comp
+L ECP5UM45:LFE5UM-45F U1
+U 2 1 5C5E9ABA
+P 9450 3150
+F 0 "U1" H 10781 1553 60  0000 L CNN
+F 1 "LFE5Ux-45F" H 10781 1447 60  0000 L CNN
+F 2 "lib:Lattice_caBGA-381_17.0x17.0mm_Layout20x20_P0.8mm_Ball0.4mm_Pad0.4mm_NSMD" H 9450 3150 50  0001 C CNN
+F 3 "" H 9450 3150 50  0001 C CNN
+	2    9450 3150
+	1    0    0    -1  
+$EndComp
+Text Notes 2650 9700 0    50   ~ 0
+ToDo: mux to mux CS between internal and external
+Wire Wire Line
+	6450 8050 6450 9550
+Connection ~ 6450 9550
+Wire Wire Line
+	6450 9550 7500 9550
+$Comp
+L Device:R R54
+U 1 1 5F22BCB1
+P 6850 8050
+F 0 "R54" V 6643 8050 50  0000 C CNN
+F 1 "100" V 6734 8050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6780 8050 50  0001 C CNN
+F 3 "~" H 6850 8050 50  0001 C CNN
+	1    6850 8050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6450 8050 6700 8050
+Wire Wire Line
+	7000 8050 7500 8050
 $EndSCHEMATC

@@ -20,7 +20,7 @@ U 1 1 5C642886
 P 1700 1550
 F 0 "J2" H 1755 2017 50  0000 C CNN
 F 1 "USB_B_Micro" H 1755 1926 50  0000 C CNN
-F 2 "JeroensFootprints:USB_Micro-B_0.8mm_taobao" H 1850 1500 50  0001 C CNN
+F 2 "JeroensFootprints:USB_Micro-B_China_MK5P" H 1850 1500 50  0001 C CNN
 F 3 "~" H 1850 1500 50  0001 C CNN
 	1    1700 1550
 	1    0    0    -1  
@@ -495,7 +495,7 @@ L Device:R R33
 U 1 1 5C6921A2
 P 1950 3400
 F 0 "R33" V 1950 3850 50  0000 C CNN
-F 1 "100" V 1950 3650 50  0000 C CNN
+F 1 "180" V 1950 3650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1880 3400 50  0001 C CNN
 F 3 "~" H 1950 3400 50  0001 C CNN
 	1    1950 3400
@@ -506,7 +506,7 @@ L Device:R R35
 U 1 1 5C694AB3
 P 1950 3500
 F 0 "R35" V 1950 3050 50  0000 C CNN
-F 1 "100" V 2050 3250 50  0000 C CNN
+F 1 "180" V 2050 3250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1880 3500 50  0001 C CNN
 F 3 "~" H 1950 3500 50  0001 C CNN
 	1    1950 3500
@@ -517,7 +517,7 @@ L Device:R R37
 U 1 1 5C694B50
 P 1950 3600
 F 0 "R37" V 1950 3150 50  0000 C CNN
-F 1 "100" V 1850 3350 50  0000 C CNN
+F 1 "180" V 1850 3350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1880 3600 50  0001 C CNN
 F 3 "~" H 1950 3600 50  0001 C CNN
 	1    1950 3600
@@ -528,7 +528,7 @@ L Device:R R34
 U 1 1 5C694C24
 P 3100 3400
 F 0 "R34" V 3100 3150 50  0000 C CNN
-F 1 "100" V 3100 2950 50  0000 C CNN
+F 1 "180" V 3100 2950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3030 3400 50  0001 C CNN
 F 3 "~" H 3100 3400 50  0001 C CNN
 	1    3100 3400
@@ -539,7 +539,7 @@ L Device:R R36
 U 1 1 5C694C2B
 P 3100 3500
 F 0 "R36" V 3100 3750 50  0000 C CNN
-F 1 "100" V 3100 3950 50  0000 C CNN
+F 1 "180" V 3100 3950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3030 3500 50  0001 C CNN
 F 3 "~" H 3100 3500 50  0001 C CNN
 	1    3100 3500
@@ -550,7 +550,7 @@ L Device:R R38
 U 1 1 5C694C32
 P 3100 3600
 F 0 "R38" V 3100 3850 50  0000 C CNN
-F 1 "100" V 3100 4050 50  0000 C CNN
+F 1 "180" V 3100 4050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3030 3600 50  0001 C CNN
 F 3 "~" H 3100 3600 50  0001 C CNN
 	1    3100 3600
@@ -1026,94 +1026,68 @@ Connection ~ 9550 4650
 Wire Wire Line
 	9550 4450 9550 4250
 Connection ~ 9550 4450
-Text GLabel 5850 3850 0    50   Input ~ 0
+Text GLabel 5050 4000 0    50   Input ~ 0
 VIO
-$Comp
-L power:GND #PWR059
-U 1 1 5C74E30B
-P 6900 3950
-F 0 "#PWR059" H 6900 3700 50  0001 C CNN
-F 1 "GND" H 6905 3777 50  0000 C CNN
-F 2 "" H 6900 3950 50  0001 C CNN
-F 3 "" H 6900 3950 50  0001 C CNN
-	1    6900 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6350 3850 6900 3850
-Wire Wire Line
-	6900 3850 6900 3950
-Text GLabel 5850 3950 0    50   Input ~ 0
+Text GLabel 5050 4400 0    50   Input ~ 0
 GENIO_1
-Text GLabel 5850 4050 0    50   Input ~ 0
+Text GLabel 5050 4500 0    50   Input ~ 0
 GENIO_3
-Text GLabel 5850 4150 0    50   Input ~ 0
+Text GLabel 5050 4600 0    50   Input ~ 0
 GENIO_5
-Text GLabel 5850 4250 0    50   Input ~ 0
+Text GLabel 5050 4700 0    50   Input ~ 0
 GENIO_7
-Text GLabel 5850 4350 0    50   Input ~ 0
+Text GLabel 5050 4800 0    50   Input ~ 0
 GENIO_9
-Text GLabel 5850 4450 0    50   Input ~ 0
+Text GLabel 5050 4900 0    50   Input ~ 0
 GENIO_11
-Text GLabel 5850 4550 0    50   Input ~ 0
+Text GLabel 5050 5000 0    50   Input ~ 0
 GENIO_13
-Text GLabel 5850 4650 0    50   Input ~ 0
+Text GLabel 5050 5100 0    50   Input ~ 0
 GENIO_15
-Text GLabel 5850 4750 0    50   Input ~ 0
+Text GLabel 5050 5200 0    50   Input ~ 0
 GENIO_17
-Text GLabel 5850 4850 0    50   Input ~ 0
+Text GLabel 5050 5300 0    50   Input ~ 0
 GENIO_19
-Text GLabel 5850 4950 0    50   Input ~ 0
+Text GLabel 5050 5400 0    50   Input ~ 0
 GENIO_21
-Text GLabel 6350 4950 2    50   Input ~ 0
+Text GLabel 5550 5400 2    50   Input ~ 0
 GENIO_22
-Text GLabel 6350 4850 2    50   Input ~ 0
+Text GLabel 5550 5300 2    50   Input ~ 0
 GENIO_20
-Text GLabel 6350 4750 2    50   Input ~ 0
+Text GLabel 5550 5200 2    50   Input ~ 0
 GENIO_18
-Text GLabel 6350 4650 2    50   Input ~ 0
+Text GLabel 5550 5100 2    50   Input ~ 0
 GENIO_16
-Text GLabel 6350 4550 2    50   Input ~ 0
+Text GLabel 5550 5000 2    50   Input ~ 0
 GENIO_14
-Text GLabel 6350 4450 2    50   Input ~ 0
+Text GLabel 5550 4900 2    50   Input ~ 0
 GENIO_12
-Text GLabel 6350 4350 2    50   Input ~ 0
+Text GLabel 5550 4800 2    50   Input ~ 0
 GENIO_10
-Text GLabel 6350 4250 2    50   Input ~ 0
+Text GLabel 5550 4700 2    50   Input ~ 0
 GENIO_8
-Text GLabel 6350 4150 2    50   Input ~ 0
+Text GLabel 5550 4600 2    50   Input ~ 0
 GENIO_6
-Text GLabel 6350 4050 2    50   Input ~ 0
+Text GLabel 5550 4500 2    50   Input ~ 0
 GENIO_4
-Text GLabel 6350 3950 2    50   Input ~ 0
+Text GLabel 5550 4400 2    50   Input ~ 0
 GENIO_2
-Text GLabel 6350 5050 2    50   Input ~ 0
+Text GLabel 5550 5500 2    50   Input ~ 0
 GENIO_24
-Text GLabel 6350 5150 2    50   Input ~ 0
+Text GLabel 5550 5600 2    50   Input ~ 0
 GENIO_26
-Text GLabel 6350 5250 2    50   Input ~ 0
+Text GLabel 5550 5700 2    50   Input ~ 0
 GENIO_28
-Text GLabel 6350 5350 2    50   Input ~ 0
+Text GLabel 5550 5800 2    50   Input ~ 0
 GENIO_30
-Text GLabel 5850 5350 0    50   Input ~ 0
+Text GLabel 5050 5800 0    50   Input ~ 0
 GENIO_29
-Text GLabel 5850 5250 0    50   Input ~ 0
+Text GLabel 5050 5700 0    50   Input ~ 0
 GENIO_27
-Text GLabel 5850 5150 0    50   Input ~ 0
+Text GLabel 5050 5600 0    50   Input ~ 0
 GENIO_25
-Text GLabel 5850 5050 0    50   Input ~ 0
+Text GLabel 5050 5500 0    50   Input ~ 0
 GENIO_23
-$Comp
-L Connector_Generic:Conn_02x16_Odd_Even J6
-U 1 1 5C7DBA62
-P 6050 4550
-F 0 "J6" H 6100 5467 50  0000 C CNN
-F 1 "Conn_02x16_Odd_Even" H 6100 5376 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x16_P2.54mm_Horizontal" H 6050 4550 50  0001 C CNN
-F 3 "~" H 6050 4550 50  0001 C CNN
-	1    6050 4550
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5C71FF0F
@@ -1345,36 +1319,271 @@ F 3 "~" H 4000 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J9
-U 1 1 5CEECB55
-P 3950 7100
-F 0 "J9" H 4058 7281 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 4058 7190 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3950 7100 50  0001 C CNN
-F 3 "~" H 3950 7100 50  0001 C CNN
-	1    3950 7100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x03_Odd_Even J8
 U 1 1 5CEEDF6E
-P 5050 6700
-F 0 "J8" H 5100 7017 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 5100 6926 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 5050 6700 50  0001 C CNN
-F 3 "~" H 5050 6700 50  0001 C CNN
-	1    5050 6700
+P 5800 6700
+F 0 "J8" H 5850 7017 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 5850 6926 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 5800 6700 50  0001 C CNN
+F 3 "~" H 5800 6700 50  0001 C CNN
+	1    5800 6700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x02_Male J10
 U 1 1 5CEEDF74
-P 5000 7100
-F 0 "J10" H 5108 7281 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 5108 7190 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5000 7100 50  0001 C CNN
-F 3 "~" H 5000 7100 50  0001 C CNN
-	1    5000 7100
+P 5950 7100
+F 0 "J10" H 6058 7281 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 6058 7190 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5950 7100 50  0001 C CNN
+F 3 "~" H 5950 7100 50  0001 C CNN
+	1    5950 7100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J6
+U 1 1 5D11B435
+P 5250 4900
+F 0 "J6" H 5300 6017 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 5250 6100 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Horizontal" H 5250 4900 50  0001 C CNN
+F 3 "~" H 5250 4900 50  0001 C CNN
+	1    5250 4900
 	1    0    0    -1  
 $EndComp
+Text GLabel 4750 4100 0    50   Input ~ 0
+FLASH_CS_EXT
+Text GLabel 4750 4200 0    50   Input ~ 0
+FLASH_MISO
+Text GLabel 4750 4300 0    50   Input ~ 0
+FLASH_WP
+Text GLabel 5850 4100 2    50   Input ~ 0
+FLASH_HOLD
+Text GLabel 5850 4200 2    50   Input ~ 0
+FLASH_SCK
+Text GLabel 5850 4300 2    50   Input ~ 0
+FLASH_MOSI
+Wire Wire Line
+	5550 4000 6450 4000
+Wire Wire Line
+	6450 4000 6450 4100
+$Comp
+L Device:R R48
+U 1 1 5D7AA997
+P 4900 4100
+F 0 "R48" V 4550 3900 50  0000 C CNN
+F 1 "100" V 4550 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4830 4100 50  0001 C CNN
+F 3 "~" H 4900 4100 50  0001 C CNN
+	1    4900 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R50
+U 1 1 5D7AB3EB
+P 4900 4200
+F 0 "R50" V 4550 4000 50  0000 C CNN
+F 1 "100" V 4550 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4830 4200 50  0001 C CNN
+F 3 "~" H 4900 4200 50  0001 C CNN
+	1    4900 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R52
+U 1 1 5D7AEBFC
+P 4900 4300
+F 0 "R52" V 4550 4100 50  0000 C CNN
+F 1 "100" V 4550 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4830 4300 50  0001 C CNN
+F 3 "~" H 4900 4300 50  0001 C CNN
+	1    4900 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R49
+U 1 1 5D7B842F
+P 5700 4100
+F 0 "R49" V 5350 4050 50  0000 C CNN
+F 1 "100" V 5350 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5630 4100 50  0001 C CNN
+F 3 "~" H 5700 4100 50  0001 C CNN
+	1    5700 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R51
+U 1 1 5D7C19B2
+P 5700 4200
+F 0 "R51" V 5350 4150 50  0000 C CNN
+F 1 "100" V 5350 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5630 4200 50  0001 C CNN
+F 3 "~" H 5700 4200 50  0001 C CNN
+	1    5700 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R53
+U 1 1 5D7CAF0D
+P 5700 4300
+F 0 "R53" V 5350 4250 50  0000 C CNN
+F 1 "100" V 5350 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5630 4300 50  0001 C CNN
+F 3 "~" H 5700 4300 50  0001 C CNN
+	1    5700 4300
+	0    1    1    0   
+$EndComp
+Text GLabel 5550 5900 2    50   Input ~ 0
+5V
+Text GLabel 5050 5900 0    50   Input ~ 0
+VBAT
+$Comp
+L power:GND #PWR0110
+U 1 1 5D8362D3
+P 4950 6750
+F 0 "#PWR0110" H 4950 6500 50  0001 C CNN
+F 1 "GND" H 4955 6577 50  0000 C CNN
+F 2 "" H 4950 6750 50  0001 C CNN
+F 3 "" H 4950 6750 50  0001 C CNN
+	1    4950 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5D846E5F
+P 6800 6700
+F 0 "#PWR0111" H 6800 6450 50  0001 C CNN
+F 1 "GND" H 6805 6527 50  0000 C CNN
+F 2 "" H 6800 6700 50  0001 C CNN
+F 3 "" H 6800 6700 50  0001 C CNN
+	1    6800 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 3800 6600 0    50   Input ~ 0
+VIO
+Text GLabel 5600 6600 0    50   Input ~ 0
+VIO
+Wire Wire Line
+	4300 6600 4950 6600
+Wire Wire Line
+	4950 6600 4950 6750
+Wire Wire Line
+	6100 6600 6800 6600
+Wire Wire Line
+	6800 6600 6800 6700
+Text GLabel 3800 6700 0    50   Input ~ 0
+SAO1_SCL
+Text GLabel 5600 6700 0    50   Input ~ 0
+SAO2_SCL
+Text GLabel 4300 6700 2    50   Input ~ 0
+SAO1_SDA
+Text GLabel 6100 6700 2    50   Input ~ 0
+SAO2_SDA
+Text GLabel 3800 6800 0    50   Input ~ 0
+SAO1_GPIO2
+Text GLabel 5600 6800 0    50   Input ~ 0
+SAO2_GPIO2
+Text GLabel 4300 6800 2    50   Input ~ 0
+SAO1_GPIO1
+Text GLabel 6100 6800 2    50   Input ~ 0
+SAO2_GPIO1
+$Comp
+L Connector:Conn_01x02_Male J9
+U 1 1 5CEECB55
+P 4150 7050
+F 0 "J9" H 4258 7231 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4258 7140 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4150 7050 50  0001 C CNN
+F 3 "~" H 4150 7050 50  0001 C CNN
+	1    4150 7050
+	-1   0    0    1   
+$EndComp
+Text GLabel 3950 6950 0    50   Input ~ 0
+SAO1_GPIO3
+Text GLabel 3950 7050 0    50   Input ~ 0
+SAO1_DRM
+Text GLabel 5750 7000 0    50   Input ~ 0
+SAO2_GPIO3
+Text GLabel 5750 7100 0    50   Input ~ 0
+SAO2_DRM
+Wire Wire Line
+	7800 4800 7800 4700
+Wire Wire Line
+	7400 4800 7800 4800
+Wire Wire Line
+	6550 4800 6900 4800
+Wire Wire Line
+	6550 4700 6550 4800
+Text GLabel 7800 4700 1    50   Input ~ 0
+VIO
+Text GLabel 6550 4700 1    50   Input ~ 0
+VIO
+$Comp
+L power:GND #PWR0109
+U 1 1 5D078342
+P 7950 4950
+F 0 "#PWR0109" H 7950 4700 50  0001 C CNN
+F 1 "GND" H 7955 4777 50  0000 C CNN
+F 2 "" H 7950 4950 50  0001 C CNN
+F 3 "" H 7950 4950 50  0001 C CNN
+	1    7950 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5D077B7E
+P 6300 4950
+F 0 "#PWR0108" H 6300 4700 50  0001 C CNN
+F 1 "GND" H 6305 4777 50  0000 C CNN
+F 2 "" H 6300 4950 50  0001 C CNN
+F 3 "" H 6300 4950 50  0001 C CNN
+	1    6300 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J11
+U 1 1 5D05A986
+P 7100 5000
+F 0 "J11" H 7150 5417 50  0000 C CNN
+F 1 "Conn_02x06_Odd_Even" H 7150 5326 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 7100 5000 50  0001 C CNN
+F 3 "~" H 7100 5000 50  0001 C CNN
+	1    7100 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR059
+U 1 1 5C74E30B
+P 6450 4100
+F 0 "#PWR059" H 6450 3850 50  0001 C CNN
+F 1 "GND" H 6455 3927 50  0000 C CNN
+F 2 "" H 6450 4100 50  0001 C CNN
+F 3 "" H 6450 4100 50  0001 C CNN
+	1    6450 4100
+	1    0    0    -1  
+$EndComp
+Text GLabel 6900 5000 0    50   Input ~ 0
+PMODA_1
+Text GLabel 6900 5100 0    50   Input ~ 0
+PMODA_2
+Text GLabel 6900 5200 0    50   Input ~ 0
+PMODA_3
+Text GLabel 6900 5300 0    50   Input ~ 0
+PMODA_4
+Text GLabel 7400 5000 2    50   Input ~ 0
+PMODB_1
+Text GLabel 7400 5100 2    50   Input ~ 0
+PMODB_2
+Text GLabel 7400 5200 2    50   Input ~ 0
+PMODB_3
+Text GLabel 7400 5300 2    50   Input ~ 0
+PMODB_4
+Wire Wire Line
+	7950 4900 7950 4950
+Wire Wire Line
+	7400 4900 7950 4900
+Wire Wire Line
+	6300 4900 6300 4950
+Wire Wire Line
+	6300 4900 6900 4900
 $EndSCHEMATC
