@@ -22,6 +22,7 @@ F 0 "U5" H 2900 2515 50  0000 C CNN
 F 1 "M3406" H 2900 2424 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2900 2000 50  0001 C CNN
 F 3 "" H 2900 2000 50  0001 C CNN
+F 4 "Xian Aerosemi Tech M3406-ADJ" H 2900 2000 50  0001 C CNN "Notes"
 	1    2900 2000
 	1    0    0    -1  
 $EndComp
@@ -33,6 +34,7 @@ F 0 "BT1" H 1368 2296 50  0000 L CNN
 F 1 "Battery_Cell" H 1368 2205 50  0000 L CNN
 F 2 "lib:battery_holder_1xAA" V 1250 2260 50  0001 C CNN
 F 3 "~" V 1250 2260 50  0001 C CNN
+F 4 "https://item.taobao.com/item.htm?spm=a1z09.2.0.0.67002e8d5Si8Ic&id=543590913112&_u=h2c9d2uc565f" H 1250 2200 50  0001 C CNN "Notes"
 	1    1250 2200
 	1    0    0    -1  
 $EndComp
@@ -44,6 +46,7 @@ F 0 "BT2" H 1368 2596 50  0000 L CNN
 F 1 "Battery_Cell" H 1368 2505 50  0000 L CNN
 F 2 "lib:battery_holder_1xAA" V 1250 2560 50  0001 C CNN
 F 3 "~" V 1250 2560 50  0001 C CNN
+F 4 "https://item.taobao.com/item.htm?spm=a1z09.2.0.0.67002e8d5Si8Ic&id=543590913112&_u=h2c9d2uc565f" H 1250 2500 50  0001 C CNN "Notes"
 	1    1250 2500
 	1    0    0    -1  
 $EndComp
@@ -196,6 +199,7 @@ F 0 "U6" H 2900 3665 50  0000 C CNN
 F 1 "XC6206P25" H 2900 3574 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2900 3250 50  0001 C CNN
 F 3 "" H 2900 3250 50  0001 C CNN
+F 4 "Torex XC6206P252MR" H 2900 3250 50  0001 C CNN "Notes"
 	1    2900 3250
 	1    0    0    -1  
 $EndComp
@@ -543,6 +547,7 @@ F 0 "SW9" H 6700 2265 50  0000 C CNN
 F 1 "SW_SPDT_shielded" H 6700 2174 50  0000 C CNN
 F 2 "lib:Korean_Hroparts_K3_1296S" H 6700 1950 50  0001 C CNN
 F 3 "" H 6700 1950 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Toggle-Switches_Korean-Hroparts-Elec-K3-1296S-E1_C128955.html" H 6700 1950 50  0001 C CNN "Notes"
 	1    6700 1950
 	1    0    0    -1  
 $EndComp
@@ -913,4 +918,82 @@ Wire Wire Line
 	3900 6550 3650 6550
 Wire Wire Line
 	3900 6300 3900 6550
+Text GLabel 6450 3250 0    50   Input ~ 0
+ADC1
+Text GLabel 6450 2850 0    50   Input ~ 0
+VBAT
+$Comp
+L Device:R R58
+U 1 1 5D3BD728
+P 6600 3050
+F 0 "R58" H 6670 3096 50  0000 L CNN
+F 1 "100K" H 6670 3005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6530 3050 50  0001 C CNN
+F 3 "~" H 6600 3050 50  0001 C CNN
+	1    6600 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R59
+U 1 1 5D3BDE34
+P 6600 3500
+F 0 "R59" H 6670 3546 50  0000 L CNN
+F 1 "100K" H 6670 3455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6530 3500 50  0001 C CNN
+F 3 "~" H 6600 3500 50  0001 C CNN
+	1    6600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 5D3BE494
+P 6600 3800
+F 0 "#PWR0117" H 6600 3550 50  0001 C CNN
+F 1 "GND" H 6605 3627 50  0000 C CNN
+F 2 "" H 6600 3800 50  0001 C CNN
+F 3 "" H 6600 3800 50  0001 C CNN
+	1    6600 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 3250 6600 3250
+Wire Wire Line
+	6600 3250 6600 3200
+Wire Wire Line
+	6600 3250 6600 3350
+Connection ~ 6600 3250
+Wire Wire Line
+	6600 3650 6600 3800
+Wire Wire Line
+	6600 2900 6600 2850
+Wire Wire Line
+	6600 2850 6450 2850
+$Comp
+L Device:C_Small C48
+U 1 1 5D3CDC6D
+P 7000 3500
+F 0 "C48" H 7092 3546 50  0000 L CNN
+F 1 "100n" H 7092 3455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7000 3500 50  0001 C CNN
+F 3 "~" H 7000 3500 50  0001 C CNN
+	1    7000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 5D3CF35A
+P 7000 3800
+F 0 "#PWR0123" H 7000 3550 50  0001 C CNN
+F 1 "GND" H 7005 3627 50  0000 C CNN
+F 2 "" H 7000 3800 50  0001 C CNN
+F 3 "" H 7000 3800 50  0001 C CNN
+	1    7000 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3600 7000 3800
+Wire Wire Line
+	7000 3400 7000 3250
+Wire Wire Line
+	7000 3250 6600 3250
 $EndSCHEMATC
