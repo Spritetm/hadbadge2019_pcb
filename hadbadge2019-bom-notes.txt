@@ -4,5 +4,6 @@ LCD is a ZYX Technology LQ032ALJV01 as sold here:
 https://item.taobao.com/item.htm?spm=a1z09.2.0.0.67002e8dLTaCnr&id=43697704645&_u=h2c9d2uca587
 
 - J11 is No Stuff.
+- J3 is No Stuff
 - R8, R19, R16 are No Stuff.
 

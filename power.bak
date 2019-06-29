@@ -508,19 +508,6 @@ Text GLabel 7150 1100 3    50   Input ~ 0
 Text GLabel 7550 1100 3    50   Input ~ 0
 VIO
 $Comp
-L power:PWR_FLAG #FLG0106
-U 1 1 5C9E1310
-P 7950 1100
-F 0 "#FLG0106" H 7950 1175 50  0001 C CNN
-F 1 "PWR_FLAG" H 7950 1274 50  0000 C CNN
-F 2 "" H 7950 1100 50  0001 C CNN
-F 3 "~" H 7950 1100 50  0001 C CNN
-	1    7950 1100
-	1    0    0    -1  
-$EndComp
-Text GLabel 7950 1100 3    50   Input ~ 0
-1V1_SERDES
-$Comp
 L power:PWR_FLAG #FLG0108
 U 1 1 5CA07CB1
 P 5900 1100
@@ -919,7 +906,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 6300 3900 6550
 Text GLabel 6450 3250 0    50   Input ~ 0
-ADC1
+ADC4
 Text GLabel 6450 2850 0    50   Input ~ 0
 VBAT
 $Comp
@@ -996,4 +983,5 @@ Wire Wire Line
 	7000 3400 7000 3250
 Wire Wire Line
 	7000 3250 6600 3250
+NoConn ~ 6950 2050
 $EndSCHEMATC

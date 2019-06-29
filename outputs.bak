@@ -1267,9 +1267,10 @@ L Connector_Generic:Conn_01x02 J3
 U 1 1 5C78AF2B
 P 6650 1900
 F 0 "J3" H 6730 1892 50  0000 L CNN
-F 1 "Conn_01x02" H 6730 1801 50  0000 L CNN
+F 1 "NO STUFF" H 6730 1801 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6650 1900 50  0001 C CNN
 F 3 "~" H 6650 1900 50  0001 C CNN
+F 4 "NO STUFF" H 6650 1900 50  0001 C CNN "Notes"
 	1    6650 1900
 	1    0    0    -1  
 $EndComp
@@ -1307,8 +1308,6 @@ Wire Wire Line
 Connection ~ 9850 1300
 Text Notes 2000 6250 0    50   ~ 0
 [38,39,40]=[im2,im1,im0]\n[0,0,0]=DBI type-B 18-bit
-Text Notes 1550 2850 0    50   ~ 0
-Note: 100R is too little: the unit resets (5V overload?)
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J7
 U 1 1 5CEDF19E
@@ -1550,6 +1549,7 @@ F 0 "J11" H 7150 5417 50  0000 C CNN
 F 1 "Conn_02x06_Odd_Even" H 7150 5326 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 7100 5000 50  0001 C CNN
 F 3 "~" H 7100 5000 50  0001 C CNN
+F 4 "NO STUFF" H 7100 5000 50  0001 C CNN "Notes"
 	1    7100 5000
 	1    0    0    -1  
 $EndComp
@@ -1588,15 +1588,4 @@ Wire Wire Line
 	6300 4900 6300 4950
 Wire Wire Line
 	6300 4900 6900 4900
-$Comp
-L Connector_Generic:Conn_02x06_Odd_Even J12
-U 1 1 5DC51358
-P 7100 5900
-F 0 "J12" H 7150 6317 50  0000 C CNN
-F 1 "Conn_02x06_Odd_Even" H 7150 6226 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 7100 5900 50  0001 C CNN
-F 3 "~" H 7100 5900 50  0001 C CNN
-	1    7100 5900
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
