@@ -27,17 +27,6 @@ F 3 "" H 11650 3150 50  0001 C CNN
 $EndComp
 $Comp
 L ECP5UM45:LFE5UM-45F U1
-U 3 1 5C5E9B3D
-P 1100 3150
-F 0 "U1" H 2450 1750 60  0000 L CNN
-F 1 "LFE5Ux-45F" H 2450 1650 60  0000 L CNN
-F 2 "lib:Lattice_caBGA-381_17.0x17.0mm_Layout20x20_P0.8mm_Ball0.4mm_Pad0.4mm_NSMD" H 1100 3150 50  0001 C CNN
-F 3 "" H 1100 3150 50  0001 C CNN
-	3    1100 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L ECP5UM45:LFE5UM-45F U1
 U 4 1 5C5E9BB7
 P 7150 3150
 F 0 "U1" H 8481 1553 60  0000 L CNN
@@ -1222,12 +1211,9 @@ Wire Wire Line
 	6350 9350 7500 9350
 NoConn ~ 1100 3750
 NoConn ~ 1100 4950
-NoConn ~ 1100 5150
 NoConn ~ 1100 5350
-NoConn ~ 1100 5550
 NoConn ~ 1100 5750
 NoConn ~ 1100 5950
-NoConn ~ 1100 6050
 NoConn ~ 3100 5050
 NoConn ~ 3100 4650
 NoConn ~ 3100 4550
@@ -1696,7 +1682,7 @@ L Device:R R57
 U 1 1 5D16B430
 P 7950 7000
 F 0 "R57" V 7743 7000 50  0000 C CNN
-F 1 "100" V 7834 7000 50  0000 C CNN
+F 1 "1K" V 7834 7000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7880 7000 50  0001 C CNN
 F 3 "~" H 7950 7000 50  0001 C CNN
 	1    7950 7000
@@ -1939,11 +1925,11 @@ IRDA_RX
 Text GLabel 7150 4750 0    50   Input ~ 0
 IRDA_SD
 Text GLabel 13650 3550 3    50   Input ~ 0
-CATR
+CATA
 Text GLabel 13850 3550 3    50   Input ~ 0
-CATG
-Text GLabel 14050 3550 3    50   Input ~ 0
 CATB
+Text GLabel 14050 3550 3    50   Input ~ 0
+CATC
 Text GLabel 13850 2850 1    50   Input ~ 0
 LED1
 $Comp
@@ -1957,12 +1943,12 @@ F 3 "~" H 14650 3000 50  0001 C CNN
 	1    14650 3000
 	1    0    0    -1  
 $EndComp
-Text GLabel 14450 3550 3    50   Input ~ 0
-CATR
-Text GLabel 14650 3550 3    50   Input ~ 0
-CATG
 Text GLabel 14850 3550 3    50   Input ~ 0
+CATA
+Text GLabel 14650 3550 3    50   Input ~ 0
 CATB
+Text GLabel 14450 3550 3    50   Input ~ 0
+CATC
 Text GLabel 14650 2850 1    50   Input ~ 0
 LED2
 $Comp
@@ -1977,11 +1963,11 @@ F 3 "~" H 15450 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 15250 3550 3    50   Input ~ 0
-CATR
+CATA
 Text GLabel 15450 3550 3    50   Input ~ 0
-CATG
-Text GLabel 15650 3550 3    50   Input ~ 0
 CATB
+Text GLabel 15650 3550 3    50   Input ~ 0
+CATC
 Text GLabel 15450 2850 1    50   Input ~ 0
 LED3
 $Comp
@@ -1995,12 +1981,12 @@ F 3 "~" H 13850 4350 50  0001 C CNN
 	1    13850 4350
 	1    0    0    -1  
 $EndComp
-Text GLabel 13650 4900 3    50   Input ~ 0
-CATR
-Text GLabel 13850 4900 3    50   Input ~ 0
-CATG
 Text GLabel 14050 4900 3    50   Input ~ 0
+CATA
+Text GLabel 13850 4900 3    50   Input ~ 0
 CATB
+Text GLabel 13650 4900 3    50   Input ~ 0
+CATC
 Text GLabel 13850 4200 1    50   Input ~ 0
 LED4
 $Comp
@@ -2015,11 +2001,11 @@ F 3 "~" H 14650 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 14450 4900 3    50   Input ~ 0
-CATR
+CATA
 Text GLabel 14650 4900 3    50   Input ~ 0
-CATG
-Text GLabel 14850 4900 3    50   Input ~ 0
 CATB
+Text GLabel 14850 4900 3    50   Input ~ 0
+CATC
 Text GLabel 14650 4200 1    50   Input ~ 0
 LED5
 $Comp
@@ -2033,12 +2019,12 @@ F 3 "~" H 15450 4350 50  0001 C CNN
 	1    15450 4350
 	1    0    0    -1  
 $EndComp
-Text GLabel 15250 4900 3    50   Input ~ 0
-CATR
-Text GLabel 15450 4900 3    50   Input ~ 0
-CATG
 Text GLabel 15650 4900 3    50   Input ~ 0
+CATA
+Text GLabel 15450 4900 3    50   Input ~ 0
 CATB
+Text GLabel 15250 4900 3    50   Input ~ 0
+CATC
 Text GLabel 15450 4200 1    50   Input ~ 0
 LED6
 $Comp
@@ -2052,12 +2038,12 @@ F 3 "~" H 13850 6100 50  0001 C CNN
 	1    13850 6100
 	1    0    0    -1  
 $EndComp
-Text GLabel 13650 6650 3    50   Input ~ 0
-CATR
-Text GLabel 13850 6650 3    50   Input ~ 0
-CATG
 Text GLabel 14050 6650 3    50   Input ~ 0
+CATA
+Text GLabel 13850 6650 3    50   Input ~ 0
 CATB
+Text GLabel 13650 6650 3    50   Input ~ 0
+CATC
 Text GLabel 13850 5550 1    50   Input ~ 0
 LED10
 $Comp
@@ -2071,13 +2057,13 @@ F 3 "~" H 14650 6100 50  0001 C CNN
 	1    14650 6100
 	1    0    0    -1  
 $EndComp
-Text GLabel 14450 6650 3    50   Input ~ 0
-CATR
 Text GLabel 14650 6650 3    50   Input ~ 0
-CATG
-Text GLabel 14850 6650 3    50   Input ~ 0
+CATA
+Text GLabel 14450 6650 3    50   Input ~ 0
 CATB
-Text GLabel 14650 5950 1    50   Input ~ 0
+Text GLabel 14850 6650 3    50   Input ~ 0
+CATC
+Text GLabel 14650 5550 1    50   Input ~ 0
 LED11
 $Comp
 L Device:R R63
@@ -2090,12 +2076,12 @@ F 3 "~" H 15450 6100 50  0001 C CNN
 	1    15450 6100
 	1    0    0    -1  
 $EndComp
-Text GLabel 15250 6650 3    50   Input ~ 0
-CATR
 Text GLabel 15450 6650 3    50   Input ~ 0
-CATG
-Text GLabel 15650 6650 3    50   Input ~ 0
+CATA
+Text GLabel 15250 6650 3    50   Input ~ 0
 CATB
+Text GLabel 15650 6650 3    50   Input ~ 0
+CATC
 Text GLabel 15450 5950 1    50   Input ~ 0
 LED7
 $Comp
@@ -2110,11 +2096,11 @@ F 3 "~" H 13850 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 13650 8000 3    50   Input ~ 0
-CATR
+CATA
 Text GLabel 13850 8000 3    50   Input ~ 0
-CATG
-Text GLabel 14050 8000 3    50   Input ~ 0
 CATB
+Text GLabel 14050 8000 3    50   Input ~ 0
+CATC
 Text GLabel 13850 7300 1    50   Input ~ 0
 LED8
 $Comp
@@ -2129,17 +2115,17 @@ F 3 "~" H 14650 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 14450 8000 3    50   Input ~ 0
-CATR
+CATA
 Text GLabel 14650 8000 3    50   Input ~ 0
-CATG
-Text GLabel 14850 8000 3    50   Input ~ 0
 CATB
+Text GLabel 14850 8000 3    50   Input ~ 0
+CATC
 Text GLabel 14650 7300 1    50   Input ~ 0
 LED9
 Wire Wire Line
 	13850 5850 13850 5950
 Text Notes 13500 2400 0    50   ~ 0
-Note: All LEDs indeed are RGB LEDs, but the default\nconfig only shows some fixed colors. Good luck\ngetting full control!\n
+Note: All LEDs indeed are RGB LEDs, but normally, \nonly CATA is powered so all LEDs will only light up \nin whatever color is connected to that. Good luck \ngetting full RGB!
 $Comp
 L jeroens_components:AO3400 Q3
 U 1 1 5D8C68B4
@@ -2165,23 +2151,12 @@ $EndComp
 $Comp
 L Device:R R69
 U 1 1 5D8F8182
-P 13100 9400
-F 0 "R69" H 12850 9400 50  0000 L CNN
-F 1 "10K" H 12850 9300 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 13030 9400 50  0001 C CNN
-F 3 "~" H 13100 9400 50  0001 C CNN
-	1    13100 9400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0119
-U 1 1 5D8F87E2
-P 13100 9550
-F 0 "#PWR0119" H 13100 9300 50  0001 C CNN
-F 1 "GND" H 13105 9377 50  0000 C CNN
-F 2 "" H 13100 9550 50  0001 C CNN
-F 3 "" H 13100 9550 50  0001 C CNN
-	1    13100 9550
+P 13100 9100
+F 0 "R69" H 12850 9200 50  0000 L CNN
+F 1 "10K" H 12850 9100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13030 9100 50  0001 C CNN
+F 3 "~" H 13100 9100 50  0001 C CNN
+	1    13100 9100
 	1    0    0    -1  
 $EndComp
 Text GLabel 13000 9250 0    50   Input ~ 0
@@ -2190,7 +2165,7 @@ Wire Wire Line
 	13000 9250 13100 9250
 Connection ~ 13100 9250
 Text GLabel 13400 9050 1    50   Input ~ 0
-CATR
+CATA
 $Comp
 L jeroens_components:AO3400 Q4
 U 1 1 5D926D6D
@@ -2241,7 +2216,7 @@ Wire Wire Line
 	14150 9250 14250 9250
 Connection ~ 14250 9250
 Text GLabel 14550 9050 1    50   Input ~ 0
-CATG
+CATB
 $Comp
 L jeroens_components:AO3400 Q5
 U 1 1 5D92F565
@@ -2292,7 +2267,7 @@ Wire Wire Line
 	15250 9250 15350 9250
 Connection ~ 15350 9250
 Text GLabel 15650 9050 1    50   Input ~ 0
-CATB
+CATC
 Text GLabel 1100 3550 0    50   Input ~ 0
 LEDB
 Text GLabel 7150 5850 0    50   Input ~ 0
@@ -2431,6 +2406,45 @@ F 3 "~" H 1300 4750 50  0001 C CNN
 	1    1100 4750
 	0    -1   -1   0   
 $EndComp
-Text Notes 13100 5850 0    50   ~ 0
-Bridge pads of\nR60 for extra\nhack-o-meter\ncreds
+Text Notes 13050 5950 0    50   ~ 0
+Bridge pads of\nR60 (or use 0R \nresistor) for extra\nhack-o-meter\ncreds
+Text GLabel 13100 8950 1    50   Input ~ 0
+VIO
+Text GLabel 14450 5550 1    50   Input ~ 0
+VIO
+$Comp
+L Device:R R72
+U 1 1 5D9EBC23
+P 14450 5700
+F 0 "R72" H 14250 5750 50  0000 L CNN
+F 1 "1K" H 14250 5650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14380 5700 50  0001 C CNN
+F 3 "~" H 14450 5700 50  0001 C CNN
+	1    14450 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14450 5850 14450 5950
+Wire Wire Line
+	14450 5950 14650 5950
+Wire Wire Line
+	14650 5950 14650 5550
+Connection ~ 14650 5950
+Text GLabel 1100 5150 0    50   Input ~ 0
+GENIO_26
+$Comp
+L ECP5UM45:LFE5UM-45F U1
+U 3 1 5C5E9B3D
+P 1100 3150
+F 0 "U1" H 2450 1750 60  0000 L CNN
+F 1 "LFE5Ux-45F" H 2450 1650 60  0000 L CNN
+F 2 "lib:Lattice_caBGA-381_17.0x17.0mm_Layout20x20_P0.8mm_Ball0.4mm_Pad0.4mm_NSMD" H 1100 3150 50  0001 C CNN
+F 3 "" H 1100 3150 50  0001 C CNN
+	3    1100 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1100 5550 0    50   Input ~ 0
+GENIO_25
+Text GLabel 1100 6050 0    50   Input ~ 0
+GENIO_29
 $EndSCHEMATC

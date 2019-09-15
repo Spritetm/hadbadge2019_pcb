@@ -1,14 +1,14 @@
 
 
 - Add breakaway tab on top so top and bottom can be V-scored
-- Make sure text faces same direction
-- Speaker hole overlaps text
-- 2V5 footprint too small (depends on osc? Perhaps add a tiny bit of length to footprint so fat one fits as
+V Make sure text faces same direction
+V Speaker hole overlaps text
+- 2V5 footprint too small (depends on part? Perhaps add a tiny bit of length to footprint so fat one fits as
   well?)
 - buttons are horrible :/
   https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-4906752333.27.20583b1eUw3ChC&id=40750516732
-- Hole under D-pad?
-- R57 (ref adc) 100r -> 1K
-- ADC GPIOs should connect to 'normal' GPIOs as well
-- LEDs should connect to 'proper' colors
-- Pullup on one of the common led drivers (R69)
+V Hole under D-pad?
+V R57 (ref adc) 100r -> 1K
+V ADC GPIOs should connect to 'normal' GPIOs as well
+V LEDs should connect to 'proper' colors
+V Pullup on one of the common led drivers (R69)

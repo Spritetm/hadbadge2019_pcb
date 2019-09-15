@@ -1025,4 +1025,15 @@ F 3 "" H 7450 5550 50  0001 C CNN
 	1    7450 5200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5DBAD1B3
+P 6350 5100
+F 0 "H1" H 6450 5146 50  0000 L CNN
+F 1 "MountingHole" H 6450 5055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 6350 5100 50  0001 C CNN
+F 3 "~" H 6350 5100 50  0001 C CNN
+	1    6350 5100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
