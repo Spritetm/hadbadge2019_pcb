@@ -7,4 +7,8 @@
   (lib (name ns8002)(type Legacy)(uri ${KIPRJMOD}/lib/ns8002.lib)(options "")(descr ""))
   (lib (name spdt_sh)(type Legacy)(uri /home/jeroen/hackaday2019/hw/badge/lib/spdt_sh.lib)(options "")(descr ""))
   (lib (name XR1151)(type Legacy)(uri ${KIPRJMOD}/lib/XR1151.lib)(options "")(descr ""))
+  (lib (name RPM973)(type Legacy)(uri ${KIPRJMOD}/lib/RPM973.lib)(options "")(descr ""))
+  (lib (name FC-B1010RGBT-HG)(type Legacy)(uri ${KIPRJMOD}/lib/FC-B1010RGBT-HG.lib)(options "")(descr ""))
+  (lib (name art)(type Legacy)(uri ${KIPRJMOD}/lib/art.lib)(options "")(descr ""))
+  (lib (name no_soldermask_square)(type Legacy)(uri ${KIPRJMOD}/lib/no_soldermask_square.lib)(options "")(descr ""))
 )

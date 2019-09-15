@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:hadbadge2019-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -26,43 +26,17 @@ F 4 "Xian Aerosemi Tech M3406-ADJ" H 2900 2000 50  0001 C CNN "Notes"
 	1    2900 2000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Battery_Cell BT1
-U 1 1 5C5EF231
-P 1250 2200
-F 0 "BT1" H 1368 2296 50  0000 L CNN
-F 1 "Battery_Cell" H 1368 2205 50  0000 L CNN
-F 2 "lib:battery_holder_1xAA" V 1250 2260 50  0001 C CNN
-F 3 "~" V 1250 2260 50  0001 C CNN
-F 4 "https://item.taobao.com/item.htm?spm=a1z09.2.0.0.67002e8d5Si8Ic&id=543590913112&_u=h2c9d2uc565f" H 1250 2200 50  0001 C CNN "Notes"
-	1    1250 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Battery_Cell BT2
-U 1 1 5C5EF2C3
-P 1250 2500
-F 0 "BT2" H 1368 2596 50  0000 L CNN
-F 1 "Battery_Cell" H 1368 2505 50  0000 L CNN
-F 2 "lib:battery_holder_1xAA" V 1250 2560 50  0001 C CNN
-F 3 "~" V 1250 2560 50  0001 C CNN
-F 4 "https://item.taobao.com/item.htm?spm=a1z09.2.0.0.67002e8d5Si8Ic&id=543590913112&_u=h2c9d2uc565f" H 1250 2500 50  0001 C CNN "Notes"
-	1    1250 2500
-	1    0    0    -1  
-$EndComp
 Text GLabel 1250 1850 1    50   Input ~ 0
 VBAT_ALWON
-Wire Wire Line
-	1250 1850 1250 2000
 $Comp
 L power:GND #PWR033
 U 1 1 5C5EF389
-P 1250 2600
-F 0 "#PWR033" H 1250 2350 50  0001 C CNN
-F 1 "GND" H 1255 2427 50  0000 C CNN
-F 2 "" H 1250 2600 50  0001 C CNN
-F 3 "" H 1250 2600 50  0001 C CNN
-	1    1250 2600
+P 1250 3000
+F 0 "#PWR033" H 1250 2750 50  0001 C CNN
+F 1 "GND" H 1255 2827 50  0000 C CNN
+F 2 "" H 1250 3000 50  0001 C CNN
+F 3 "" H 1250 3000 50  0001 C CNN
+	1    1250 3000
 	1    0    0    -1  
 $EndComp
 Text GLabel 2100 1800 0    50   Input ~ 0
@@ -272,7 +246,7 @@ Connection ~ 2200 3150
 Text Notes 750  1250 0    50   ~ 0
 LDO dropout voltage is 0.3-0.7V... so we need 2.8-3.2V of \ninput. Not enough margin with just 2 AA cells: If any, NiMHs\nwill break this (2.4V max). Hence, we need a SMPS to generate\n the 3.3VIO, and from that derive the 2.5V Vaux.
 Text Notes 3300 1200 0    50   ~ 0
-Note: M3406 and XR1151 are Chinesium,\nbut very cheap.
+Note: M3406 and XR1151 are Chinesium,\nbut very cheap and plenty good.
 Text GLabel 2050 4650 0    50   Input ~ 0
 VBAT
 Text GLabel 5150 4300 2    50   Input ~ 0
@@ -567,7 +541,7 @@ L Device:R R6
 U 1 1 5D02412F
 P 3650 4600
 F 0 "R6" H 3720 4646 50  0000 L CNN
-F 1 "330K" H 3720 4555 50  0000 L CNN
+F 1 "360K" H 3720 4555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3580 4600 50  0001 C CNN
 F 3 "~" H 3650 4600 50  0001 C CNN
 	1    3650 4600
@@ -646,8 +620,8 @@ Wire Wire Line
 	4600 4650 4600 4800
 Wire Wire Line
 	5050 4300 5150 4300
-Text Notes 4900 4500 0    50   ~ 0
-VIO: 700mA max\n
+Text Notes 4900 4550 0    50   ~ 0
+VIO: 3.3V \n@ 700mA max\n
 Text GLabel 2050 6300 0    50   Input ~ 0
 VBAT
 Text GLabel 5150 5950 2    50   Input ~ 0
@@ -778,7 +752,7 @@ L Device:R R23
 U 1 1 5D0633D5
 P 3650 6250
 F 0 "R23" H 3720 6296 50  0000 L CNN
-F 1 "560K" H 3720 6205 50  0000 L CNN
+F 1 "750K" H 3720 6205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3580 6250 50  0001 C CNN
 F 3 "~" H 3650 6250 50  0001 C CNN
 	1    3650 6250
@@ -984,4 +958,71 @@ Wire Wire Line
 Wire Wire Line
 	7000 3250 6600 3250
 NoConn ~ 6950 2050
+Text Notes 550  2050 0    50   ~ 0
+Reverse polarity\nprotection
+Text Notes 6900 3000 0    50   ~ 0
+Battery voltage\nmeasurement
+$Comp
+L Device:Battery_Cell BT2
+U 1 1 5C5EF2C3
+P 1250 2900
+F 0 "BT2" H 1368 2996 50  0000 L CNN
+F 1 "Battery_Cell" H 1368 2905 50  0000 L CNN
+F 2 "lib:battery_holder_1xAA" V 1250 2960 50  0001 C CNN
+F 3 "~" V 1250 2960 50  0001 C CNN
+F 4 "https://item.taobao.com/item.htm?spm=a1z09.2.0.0.67002e8d5Si8Ic&id=543590913112&_u=h2c9d2uc565f" H 1250 2900 50  0001 C CNN "Notes"
+	1    1250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5C5EF231
+P 1250 2600
+F 0 "BT1" H 1368 2696 50  0000 L CNN
+F 1 "Battery_Cell" H 1368 2605 50  0000 L CNN
+F 2 "lib:battery_holder_1xAA" V 1250 2660 50  0001 C CNN
+F 3 "~" V 1250 2660 50  0001 C CNN
+F 4 "https://item.taobao.com/item.htm?spm=a1z09.2.0.0.67002e8d5Si8Ic&id=543590913112&_u=h2c9d2uc565f" H 1250 2600 50  0001 C CNN "Notes"
+	1    1250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L jeroens_components:AO3401 Q2
+U 1 1 5D6A27A7
+P 1350 2200
+F 0 "Q2" H 1556 2154 50  0000 L CNN
+F 1 "AO3401" H 1556 2245 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1550 2125 50  0001 L CIN
+F 3 "http://www.aosmd.com/res/data_sheets/AO3401.pdf" H 1350 2200 50  0001 L CNN
+	1    1350 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 5D6A7E95
+P 1700 2300
+F 0 "#PWR0126" H 1700 2050 50  0001 C CNN
+F 1 "GND" H 1705 2127 50  0000 C CNN
+F 2 "" H 1700 2300 50  0001 C CNN
+F 3 "" H 1700 2300 50  0001 C CNN
+	1    1700 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 2200 1700 2200
+Wire Wire Line
+	1700 2200 1700 2300
+Wire Wire Line
+	1250 1850 1250 2000
+$Comp
+L art:art A1
+U 1 1 5D6694BE
+P 7450 5200
+F 0 "A1" H 7778 5296 50  0000 L CNN
+F 1 "art" H 7778 5205 50  0000 L CNN
+F 2 "lib:badge_art" H 7450 5550 50  0001 C CNN
+F 3 "" H 7450 5550 50  0001 C CNN
+	1    7450 5200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

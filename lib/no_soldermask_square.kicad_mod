@@ -1,0 +1,10 @@
+(module no_soldermask_square (layer F.Cu) (tedit 5D647F52)
+  (attr virtual)
+  (fp_text reference REF** (at -0.1 -4) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value no_soldermask_square (at 0 -6.1) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_poly (pts (xy -2.4 -2.4) (xy -2.4 2.4) (xy 2.4 2.4) (xy 2.4 -2.4)) (layer F.Mask) (width 0.1))
+)

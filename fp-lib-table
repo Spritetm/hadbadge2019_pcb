@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name lib)(type KiCad)(uri ${KIPRJMOD}/lib)(options "")(descr ""))
+  (lib (name no_soldermask_square)(type KiCad)(uri ${KIPRJMOD}/lib/no_soldermask_square.pretty)(options "")(descr ""))
 )

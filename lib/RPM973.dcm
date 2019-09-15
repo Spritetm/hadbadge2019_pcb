@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RPM973
+D 4Mbps IrDA transceiver
+F http://caxapa.ru/thumbs/681949/RPM973-H16(full).pdf
+$ENDCMP
+#
+#End Doc Library

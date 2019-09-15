@@ -1,0 +1,7 @@
+R6: 330K -> 360K (Vio=3.23V)
+R23: 560K -> 750K (5V = 5.1V)
+USB-connector needs to be closer to edge (non-fatal)
+D12/D13 inverted wrt polarisation (OK in schematic/design)
+
+Note: liability for connection between output pad of osc and 'castellation' on the side of osc. This kills
+the clock signal.
