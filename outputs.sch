@@ -887,9 +887,9 @@ L Switch:SW_Push SW1
 U 1 1 5C6B5595
 P 9350 4250
 F 0 "SW1" H 9850 4300 50  0000 C CNN
-F 1 "Up" H 10150 4300 50  0000 C CNN
+F 1 "Up (RED)" H 10250 4300 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 9350 4450 50  0001 C CNN
-F 3 "" H 9350 4450 50  0001 C CNN
+F 3 "https://item.taobao.com/item.htm?id=40750516732" H 9350 4450 50  0001 C CNN
 	1    9350 4250
 	1    0    0    -1  
 $EndComp
@@ -900,9 +900,9 @@ L Switch:SW_Push SW2
 U 1 1 5C6BC3D6
 P 9350 4450
 F 0 "SW2" H 9850 4500 50  0000 C CNN
-F 1 "Down" H 10150 4500 50  0000 C CNN
+F 1 "Down (RED)" H 10250 4500 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 9350 4650 50  0001 C CNN
-F 3 "" H 9350 4650 50  0001 C CNN
+F 3 "https://item.taobao.com/item.htm?id=40750516732" H 9350 4650 50  0001 C CNN
 	1    9350 4450
 	1    0    0    -1  
 $EndComp
@@ -913,9 +913,9 @@ L Switch:SW_Push SW3
 U 1 1 5C6C95C8
 P 9350 4650
 F 0 "SW3" H 9850 4700 50  0000 C CNN
-F 1 "Left" H 10150 4700 50  0000 C CNN
+F 1 "Left (RED)" H 10250 4700 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 9350 4850 50  0001 C CNN
-F 3 "" H 9350 4850 50  0001 C CNN
+F 3 "https://item.taobao.com/item.htm?id=40750516732" H 9350 4850 50  0001 C CNN
 	1    9350 4650
 	1    0    0    -1  
 $EndComp
@@ -926,9 +926,9 @@ L Switch:SW_Push SW4
 U 1 1 5C6D0730
 P 9350 4850
 F 0 "SW4" H 9850 4900 50  0000 C CNN
-F 1 "Right" H 10150 4900 50  0000 C CNN
+F 1 "Right (RED)" H 10250 4900 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 9350 5050 50  0001 C CNN
-F 3 "" H 9350 5050 50  0001 C CNN
+F 3 "https://item.taobao.com/item.htm?id=40750516732" H 9350 5050 50  0001 C CNN
 	1    9350 4850
 	1    0    0    -1  
 $EndComp
@@ -939,9 +939,9 @@ L Switch:SW_Push SW5
 U 1 1 5C6D701C
 P 9350 5050
 F 0 "SW5" H 9850 5100 50  0000 C CNN
-F 1 "A" H 10150 5100 50  0000 C CNN
+F 1 "A (RED)" H 10250 5100 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 9350 5250 50  0001 C CNN
-F 3 "" H 9350 5250 50  0001 C CNN
+F 3 "https://item.taobao.com/item.htm?id=40750516732" H 9350 5250 50  0001 C CNN
 	1    9350 5050
 	1    0    0    -1  
 $EndComp
@@ -952,9 +952,9 @@ L Switch:SW_Push SW6
 U 1 1 5C6DD90C
 P 9350 5250
 F 0 "SW6" H 9850 5300 50  0000 C CNN
-F 1 "B" H 10150 5300 50  0000 C CNN
+F 1 "B (RED)" H 10250 5300 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 9350 5450 50  0001 C CNN
-F 3 "" H 9350 5450 50  0001 C CNN
+F 3 "https://item.taobao.com/item.htm?id=40750516732" H 9350 5450 50  0001 C CNN
 	1    9350 5250
 	1    0    0    -1  
 $EndComp
@@ -965,9 +965,9 @@ L Switch:SW_Push SW7
 U 1 1 5C6E41FE
 P 9350 5450
 F 0 "SW7" H 9850 5500 50  0000 C CNN
-F 1 "Select" H 10150 5500 50  0000 C CNN
+F 1 "Select (BLUE)" H 10250 5500 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 9350 5650 50  0001 C CNN
-F 3 "" H 9350 5650 50  0001 C CNN
+F 3 "https://item.taobao.com/item.htm?id=40750516732" H 9350 5650 50  0001 C CNN
 	1    9350 5450
 	1    0    0    -1  
 $EndComp
@@ -978,9 +978,9 @@ L Switch:SW_Push SW8
 U 1 1 5C6EAAF2
 P 9350 5650
 F 0 "SW8" H 9850 5700 50  0000 C CNN
-F 1 "Start" H 10150 5700 50  0000 C CNN
+F 1 "Start (BLUE)" H 10250 5700 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 9350 5850 50  0001 C CNN
-F 3 "" H 9350 5850 50  0001 C CNN
+F 3 "https://item.taobao.com/item.htm?id=40750516732" H 9350 5850 50  0001 C CNN
 	1    9350 5650
 	1    0    0    -1  
 $EndComp
@@ -1773,4 +1773,6 @@ Wire Wire Line
 	1900 1900 2300 1900
 Text Notes 1100 1150 0    50   ~ 0
 J12 is the 'Header of Shame'. If someone\nrips off the USB connector, they can always\ncut off a cable and solder it to J12.
+Text Notes 9000 4050 0    50   ~ 0
+Buttons are 6x6x4.3mm tactile things.
 $EndSCHEMATC
