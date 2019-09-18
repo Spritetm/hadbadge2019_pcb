@@ -1,0 +1,15 @@
+(module mouse_bite_6 (layer F.Cu) (tedit 5D80EF38)
+  (attr virtual)
+  (fp_text reference REF** (at 0.6 -1.55) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value mouse_bite_6 (at 0.223 -2.982) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at -0.325 0) (size 0.35 0.35) (drill 0.35) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 0.325 0) (size 0.35 0.35) (drill 0.35) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 0.975 0) (size 0.35 0.35) (drill 0.35) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at -0.975 0) (size 0.35 0.35) (drill 0.35) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at -1.625 0) (size 0.35 0.35) (drill 0.35) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 1.625 0) (size 0.35 0.35) (drill 0.35) (layers *.Cu *.Mask))
+)
