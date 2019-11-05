@@ -1775,4 +1775,6 @@ Text Notes 1100 1150 0    50   ~ 0
 J12 is the 'Header of Shame'. If someone\nrips off the USB connector, they can always\ncut off a cable and solder it to J12.
 Text Notes 9000 4050 0    50   ~ 0
 Buttons are 6x6x4.3mm tactile things.
+Text Notes 3550 7400 0    50   ~ 0
+Oopsie: SDA/SCL are switched. Can't be bothered to change it now...
 $EndSCHEMATC

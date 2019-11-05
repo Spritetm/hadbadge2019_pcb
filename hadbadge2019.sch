@@ -32,4 +32,6 @@ U 5C6427B1
 F0 "Outputs" 50
 F1 "outputs.sch" 50
 $EndSheet
+Text Notes 2000 1150 0    50   ~ 0
+Note: These are the schematics for the PRODUCTION version (black silkscreen).
 $EndSCHEMATC
