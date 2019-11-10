@@ -1775,6 +1775,8 @@ Text Notes 1100 1150 0    50   ~ 0
 J12 is the 'Header of Shame'. If someone\nrips off the USB connector, they can always\ncut off a cable and solder it to J12.
 Text Notes 9000 4050 0    50   ~ 0
 Buttons are 6x6x4.3mm tactile things.
-Text Notes 3550 7400 0    50   ~ 0
-Oopsie: SDA/SCL are switched. Can't be bothered to change it now...
+Text Notes 4100 7600 0    50   ~ 0
+Oopsie: SDA/SCL are switched, as well as\n GPIO1/GPIO2, both here as well as on the\n silkscreen.
+Text Notes 6500 3500 0    50   ~ 0
+Oopsie: The numbering of the PMOD\nconnectors is inverted. PMODx_1 should be\nPMODx_4, PMODx_2 should be PMODx_3 etc.\nSilkscreen is also wrong.\n.
 $EndSCHEMATC
