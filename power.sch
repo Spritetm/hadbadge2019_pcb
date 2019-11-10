@@ -245,7 +245,7 @@ Wire Wire Line
 Connection ~ 2200 3150
 Text Notes 750  1250 0    50   ~ 0
 LDO dropout voltage is 0.3-0.7V... so we need 2.8-3.2V of \ninput. Not enough margin with just 2 AA cells: If any, NiMHs\nwill break this (2.4V max). Hence, we need a SMPS to generate\n the 3.3VIO, and from that derive the 2.5V Vaux.
-Text Notes 3300 1200 0    50   ~ 0
+Text Notes 3600 1200 0    50   ~ 0
 Note: M3406 and XR1151 are Chinesium,\nbut very cheap and plenty good.
 Text GLabel 2050 4650 0    50   Input ~ 0
 VBAT
