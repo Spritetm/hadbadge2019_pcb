@@ -5,10 +5,6 @@ This repo contains the schematics and PCB artwork for the Hackaday Supercon 2019
 as cleaned up yet as I want to be, but I hope it works as a reference. Note that there may be some
 older text and other files floating around in the repo as well.
 
-License: TBD. Feel free to use this as a reference for now, I need to have a think about which
-license I will release it under. For now, contact me if you want to do something with this and
-we'll work something out.
-
 Known Issues
 ------------
 
@@ -36,4 +32,15 @@ indicating it needs to be 4.3mm.
 
 * The badge cannot run from an USB power connection. This is intentional, as there's no nice way to
 feed 5V into the system without adding a fair amount of extra power supply electronics.
+
+License
+-------
+
+This hardware is licensed under [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) 
+A non-legalese summary would be that you're allowed to share and remix these designs, but you
+should attribute me (Sprite_tm/Jeroen Domburg) for my work, and your new work should be licensed
+under the same or a similar license. If this license doesn't work for your purposes, feel free
+to contact me to discuss a different license. Also, optionally, if you do use these designs 
+to build something, I would very much appreciate it if you could send me a copy.
+
 
